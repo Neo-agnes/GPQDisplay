@@ -1,0 +1,589 @@
+﻿@media all and (max-width:1770px) {
+   /* 회사소개 - contact*/
+  .company_contact .select_contact ul li {
+      /*min-width: 380px;
+      width: auto;*/
+      padding: 55px 35px;
+  }
+  .company_contact .select_contact {
+      padding: 0 80px;
+  }
+  .inner_content.inner_company {
+      padding: 80px 50px 190px;
+  }
+  
+  /* 회사소개 - 사업현황 */
+  .status_year {
+  	width: 100%;
+  	overflow:hidden; 
+  	overflow-x: auto;
+  	 -ms-overflow-style: none; 
+  	 scrollbar-width: none;
+  }
+  .status_year::-webkit-scrollbar { display: none; }
+  
+}
+
+@media all and (max-width:1600px) {
+	
+	
+	
+
+  /* 회사소개 - contact*/
+	.inner_content.inner_company {
+      margin-left: 0;
+  }
+  
+  /* 회사소개 - 사업현황 */
+  .body-status .inner_wrap .inner_content {
+  	/*padding: 80px 0 0;*/
+  }
+  .status_sec01 {
+  	/*padding: 85px 10% 80px 7%;*/
+  }
+  .status_tit .status_tit3 {
+  	width: 642px;
+    height: 68px;
+  }
+  .status_tit .status_tit3 h2 {
+  	font-size: 28px;
+  }
+}
+
+
+@media all and (max-width:1480px) { 
+	
+	/* 회사소개 - 인사말 */
+ 	/*.comapny_inner {padding:0 30px;}*/
+ 	.comapny_inner dl dt img {width: 620px;}
+ 	.comapny_inner dl dd {padding-left: 60px;}
+
+
+	
+
+
+  /* 회사소개 - contact*/
+  .inner_content.inner_company {
+    margin-left: 0;
+  }
+  .company_contact {
+    padding-right: 6.7vw;
+  }
+  .company_contact .select_contact {
+      padding: 0 50px;
+  }
+  .write_set .flex_table ul li.right strong {
+    text-align: left;
+  }
+  
+  .inner_content.inner_company {
+    padding: 40px 50px 100px;
+  }
+  .company_contact .select_contact {
+    padding: 0;    
+  }
+
+	/* 회사소개 - 연혁 */
+	.company_history .inner_history {margin-left: 0px;}
+	
+	
+
+   .inner_content .search_area {height: auto; padding: 10px; background-color: #f5f5f5; display:block; align-items: center; justify-content: space-between;}
+   .inner_content .search_area input {font-size: 12px; line-height: 1.56; letter-spacing: -0.9px; text-align: left; color: #000000;}
+   .inner_content .search_area input::placeholder {font-size: 12px; line-height: 1.56; letter-spacing: -0.9px; text-align: left; color: #999999;}
+   .inner_content .search_area .left span {position: relative; display:inline-block; vertical-align: middle;}
+   .inner_content .search_area .left .txt {font-size: 12px; line-height: 1.56; letter-spacing: -0.9px; color: #444444; margin:0 7px;}
+   .inner_content .search_area .left .txt::after {display:none;}
+   .inner_content .search_area .left span::after {content:''; width:17px; height:18px; position: absolute; right:10px; top:50%; transform: translateY(-50%); background:url(../../images/infomation/icon_calender.png) no-repeat; background-size: 100%;;}
+   .inner_content .search_area .left input {width: 100px; height: 40px; padding:0 20px 0 10px; border-radius: 10px; background-color: #ffffff; position: relative; border:0; box-sizing: border-box;}
+   .inner_content .search_area .left input:focus {border: solid 2px #d61818;}
+
+   .inner_content .search_area .right {margin-top:15px;}
+   .inner_content .search_area .right span {position: relative; display:inline-block; vertical-align: middle; width:calc(100% - 50px);}
+   .inner_content .search_area .right span input {width: 100%; height: 40px; padding:0 10px; border-radius: 10px; background-color: #ffffff; position: relative; border:0; box-sizing: border-box;}
+   .inner_content .search_area .right button {width:40px; height:40px; background:#000; border-radius: 50%; vertical-align: middle; margin-left:10px; transition: all 0.3s;} 
+   .inner_content .search_area .right button:hover {background:#d61818;}
+   .inner_content .search_area .right button img {width:10px;}
+
+
+   .inner_content .tableSt01 {margin-top:20px; border-top:1px solid #000; font-family: 'Noto Sans KR';}
+   .inner_content .tableSt01 th {height:40px; border-bottom:1px solid #5e5e5e}
+   .inner_content .tableSt01 th strong {font-size: 14px; font-weight: bold; line-height: 1.56; letter-spacing: -0.9px; color: #000000;}
+   .inner_content .tableSt01 td {height:95px; border-bottom:1px solid rgba(0, 0, 0, 0.2); text-align:center; vertical-align: middle;}
+   .inner_content .tableSt01 td p {font-size: 14px; line-height: 1.56; letter-spacing: -0.9px; color: #000000;}
+   .inner_content .tableSt01 td p a {font-size: 14px; line-height: 1.56; letter-spacing: -0.9px; color: #000000;}
+
+   .paging {margin-top:30px; display: flex; justify-content: center; align-items: center;}
+   .paging button img {width:10px;}
+   .paging ul {margin:0 50px;}
+   .paging ul li {display:inline-block; margin:0 2px;}
+   .paging ul li a {width:25px; height:25px; font-size: 16.5px; font-weight: bold; line-height: 25px; letter-spacing: 0.83px; text-align: center; color: #999999; display:inline-block; font-family: Catamaran;}
+   .paging ul li.on a {background:#d61818; border-radius: 50%; color:#fff;}
+   
+   .inner_content .info_view {}
+   .inner_content .info_view .tit {display:flex; background-color: #f5f5f5; height:80px; justify-content: space-between; padding:0 30px 0 30px; align-items: center; border-top:1px solid #000000; border-bottom:1px solid #5e5e5e;}
+   .inner_content .info_view .tit h2 {font-size: 18px; font-weight: bold; line-height: 1.08; letter-spacing: -1.3px; color: #000000;}
+   .inner_content .info_view .tit span {font-size: 14px; line-height: 8.76; letter-spacing: -0.83px; color: #000000;}
+   .inner_content .info_view .viewr {padding:20px 30px;}
+   .inner_content .info_view .viewr p { font-size: 13px; line-height: 1.63; letter-spacing: -0.8px; color: #000000;}
+   .inner_content .info_view .viewr .down {display: block; justify-content: left; align-items: center; margin-top:30px;}
+   .inner_content .info_view .viewr .down span {font-size: 16px; line-height: 1.63; letter-spacing: -0.8px; color: #999999;}
+   .inner_content .info_view .viewr .down a {margin-left:0px; margin-top:10px; height: 42px; border-radius: 10px; background: #000000 url(../../images/common/icon_down.png) 80% center no-repeat; padding:0 56px 0 20px; background-size:22px auto; font-size: 12px; font-weight: bold; line-height: 46px; letter-spacing: -0.7px; color: #ffffff; display:inline-block;} 
+   .inner_content .list_view {border-top:1px solid #5e5e5e;}
+   .inner_content .list_view li {border-bottom:1px solid #5e5e5e; height:64px; display: flex; align-items: center; justify-content: space-between; padding-right:40px;}
+   .inner_content .list_view li a {padding-left:40px; font-size: 14px; line-height: 1.56; letter-spacing: -0.9px; color: #000000;}
+   .inner_content .list_view li.next a {background:url(../../images/common/icon_prev_word.png) 12px center no-repeat; background-size:12px auto;}
+   .inner_content .list_view li span {font-size: 12px; line-height: 8.76; letter-spacing: -0.83px; color: #000000;}
+   .inner_content .list_view li.prev a {background:url(../../images/common/icon_next_word.png) 12px center no-repeat; background-size:12px auto;}
+   .inner_content .list_btn {margin-top:60px; text-align:center;}
+
+   button.list {width:220px; height:81px; background:url(../../images/main/bg_main_btn.png) no-repeat; background-size:100% auto; text-align:left; position: relative;  font-size: 16.5px; font-weight: bold; line-height: 1.2; letter-spacing: 0.83px; text-align: left; color: #ffffff; padding-left:30px; margin-top:60px;}
+   button.list span {position: absolute; right:12px; top:50%; transform: translateY(-50%); background:#fff; width:55px; height:55px; border-radius: 50%; overflow:hidden;}
+   button.list span::after {content:''; width:21px; height:10px; background:url(../../images/main/img_arrow.png) no-repeat; background-size:100%; position: absolute; top:50%; left:50%; transform: translate(-50%, -50%); transition: all 0.3s;}
+   button.list span::before {content:''; width:21px; height:10px; background:url(../../images/main/img_arrow.png) no-repeat; background-size:100%; position: absolute; top:50%; left:-50%; transform: translate(-50%, -50%);  transition: all 0.3s;}
+   button.list:hover span::after {left:150%;}
+   button.list:hover span::before {left:50%;}
+
+   
+   .write_set {width:auto; margin:0 30px;}
+   .write_set .tit_area {padding-bottom:20px; border-bottom:1px solid #000;}
+   .write_set .tit_area h3 {font-size: 28px; font-weight: 500; line-height: 1.1; letter-spacing: -2.3px; text-align: left; color: rgba(0, 0, 0, 0.97);}
+   .write_set .tit_area p {font-size: 18px; font-weight: 500; line-height: 1.25; letter-spacing: -1.2px; color: #000000; margin-top:20px;}
+   .write_set .inner_word {margin-top:20px; height: 200px; border-radius: 10px; border: solid 1px #cccccc; background-color: #ffffff;}
+   .write_set .inner_word .scroll {padding:20px; box-sizing: border-box; height:197px; overflow-y: auto;}
+   .write_set .inner_word .scroll p {font-size: 12px; line-height: 1.56; letter-spacing: -0.9px; color: #444444;}
+   .write_set .inner_word .scroll p strong {font-weight: bold; color: #000000;}
+   .write_set .checkbox_center {text-align:center; margin-top:20px;}
+   .write_set .checkbox_center input {width:20px; height:20px; background:url(../../images/common/icon_checkbox_off.png) no-repeat; background-size: 100%; margin:0; appearance:none;}
+   .write_set .checkbox_center input:checked {background:url(../../images/common/icon_checkbox_on.png) no-repeat; background-size: 100%;}
+   .write_set .checkbox_center label {background-size: 19px; font-size: 15px; padding-left: 30px; font-weight: bold; line-height: 1.33; letter-spacing: -1.05px;  color: #000000;}
+   .write_set .checkbox_center input:checked + label {background-size: 19px;}
+
+   .write_set .write_txt {margin-top:50px;}
+   .write_set .write_txt h5 {font-size: 18px; padding-bottom:10px;}
+   .write_set .flex_table {padding-top:22px; padding-bottom:30px; border-bottom:1px solid #cccccc;}
+   .write_set .flex_table > ul {}
+   .write_set .flex_table > ul > li {display:inline-block; width:100%; margin-top:8px;}
+   .write_set .flex_table ul li + li {margin-top:30px;}
+   .write_set .flex_table ul li > strong {display:inline-block; width:100%; font-size: 14px; font-weight: bold; line-height: 24px; letter-spacing: -0.9px; color: #000000; vertical-align: middle;}
+   .write_set .flex_table ul li .select {display:inline-block; vertical-align: middle; position: relative; width:100%;}
+   .write_set .flex_table ul li .select > ul {}
+   .write_set .flex_table ul li .select > button {width: 100%; height: 44px; border-radius: 10px; border: solid 1px #cccccc; background-color: #ffffff; padding:0 20px; box-sizing: border-box; font-size: 14px; line-height: 1.56; letter-spacing: -0.9px; color: #999999; text-align:left; position: relative; transition: all 0.2s;}
+   .write_set .flex_table ul li .select > button::after {content:''; width:16px; height:10px; position: absolute; top:50%; margin-top:-5px; right:20px; background: url(../../images/common/icon_arrow_black.gif) no-repeat; transition: all 0.2s;}  
+   .write_set .flex_table ul li .select.curr {z-index:10;}
+   .write_set .flex_table ul li .select.curr > button::after {transform: rotate(180deg);} 
+   .write_set .flex_table ul li .select.curr > ul {display:block;}
+
+   .write_set .flex_table ul li .select > ul {position: absolute; left:0; top:45px; width:100%; border-radius: 10px; box-shadow: 0px 7px 31.2px 3.9px rgba(0, 0, 0, 0.03); background-color: #ffffff; padding:7px; display:none;}
+   .write_set .flex_table ul li .select > ul li button {font-size: 16px; font-weight: 500; line-height: 35px; letter-spacing: -0.8px; color: rgba(0, 0, 0, 0.5); display:block; padding-left:5px; border-radius: 7px; background:#fff; overflow-y: hidden; position: relative; transition: all 0.3s; width:100%; text-align:left;}
+   .write_set .flex_table ul li .select > ul li button:hover {background:#f5f5f5; color:#d61818;}
+
+   .write_set .flex_table ul li .phone, .write_set .flex_table ul li .mail{display:inline-block; vertical-align: middle; position: relative; width:100%;}
+   .write_set .flex_table ul li .phone .select {width:30%;}
+   .write_set .flex_table ul li .phone .select > button {width:100%;}
+   .write_set .flex_table ul li .phone > input, .write_set .flex_table ul li .mail > input {width: 30%; height: 44px; border-radius: 10px; border: solid 1px #cccccc; background-color: #ffffff; padding:0 20px; box-sizing: border-box; font-size: 14px; line-height: 1.56; letter-spacing: -0.9px; color: #999999; text-align:left; position: relative;}
+   .write_set .flex_table ul li .mail > input{width:47.5%}
+   .write_set .flex_table ul li .inputs {display:inline-block; vertical-align: middle; position: relative; width:100%;}
+   .write_set .flex_table ul li .inputs > input {width: 100%; height: 44px; border-radius: 10px; border: solid 1px #cccccc; background-color: #ffffff; padding:0 20px; box-sizing: border-box; font-size: 14px; line-height: 1.56; letter-spacing: -0.9px; color: #999999; text-align:left; position: relative;}
+   .write_set .flex_table ul li .txt {width:5%; text-align:center; display: inline-block; vertical-align: middle; font-size: 18px; line-height: 1.56; letter-spacing: -0.9px; color: #444444;}
+   .write_set .flex_table ul li.right {text-align:right;}
+   .write_set .flex_table ul li.right strong {text-align:left;}
+   .write_set .flex_table ul li.all {width:100%;}
+   .write_set .flex_table ul li.all .inputs {width:100%;}
+   .write_set .flex_table ul li.all .inputs > input {width:100%;}
+   .write_set .flex_table ul li .texts {display:inline-block; vertical-align: top; position: relative; width:100%;}
+   .write_set .flex_table ul li .texts textarea {width:100%; font-size: 14px; height: 200px; padding: 20px; border-radius: 10px; border: solid 1px #cccccc; background-color: #ffffff; box-sizing: border-box;}
+   .write_set .flex_table ul li .files {display:inline-block; vertical-align: top; position: relative; width:100%;}
+   .write_set .flex_table ul li .files .top {position: relative;}
+   .write_set .flex_table ul li .files .top input {width: 70%; height: 40px; border-radius: 10px; border: solid 1px #cccccc; background-color: #ffffff; padding:0 10px; box-sizing: border-box; font-size: 14px; line-height: 1.56; letter-spacing: -0.9px; color: #999999; text-align:left; position: relative;}
+   .write_set .flex_table ul li .files .top button {width: 25%; height: 40px; border-radius: 10px; background-color: #000000; font-size: 12px; font-weight: bold; line-height: 1.56; letter-spacing: -0.9px; color: #ffffff; margin-left:10px; vertical-align: top;}
+   .write_set .flex_table ul li .files .hide {position: absolute; left:-2000000px; }
+   .write_set .flex_table ul li .files p {font-size: 12px; line-height: 1.75; letter-spacing: -0.8px; color: #d61818; padding-right: 21px; background:url(../../images/common/icon_point.gif) right center no-repeat; margin-top:10px; display:inline-block;}
+   .write_set .flex_table ul li .files .imgs {margin-top:10px;}
+   .write_set .flex_table ul li .files .imgs img {height:50px; }
+   .write_set .last_btns {margin-top:30px; text-align:center;}
+   .write_set .last_btns button {width:130px; height:48px; background:url(../../images/main/bg_main_btn.png) no-repeat; background-size:100% auto; text-align:left; position: relative;  font-size: 14px; font-weight: bold; line-height: 1.2; letter-spacing: 0.83px; text-align: left; color: #ffffff; padding-left:20px; margin:0 5px;}
+   .write_set .last_btns button span {position: absolute; right:12px; top:50%; transform: translateY(-50%); background:#fff; width:35px; height:35px; border-radius: 50%; overflow:hidden; transition: all 0.3s;}
+   .write_set .last_btns button span::after {content:''; width:16px; height:8px; background:url(../../images/main/img_arrow.png) no-repeat; background-size:100%; position: absolute; top:50%; left:50%; transform: translate(-50%, -50%); transition: all 0.3s;}
+   .write_set .last_btns button span::before {content:''; width:16px; height:8px; background:url(../../images/main/img_arrow.png) no-repeat; background-size:100%; position: absolute; top:50%; left:-50%; transform: translate(-50%, -50%);  transition: all 0.3s;}
+   .write_set .last_btns button:hover span {background:rgba(255,255,255,1);}
+   .write_set .last_btns button:hover span::after {left:150%;}
+   .write_set .last_btns button:hover span::before {left:50%;}
+
+   .write_set .last_btns button.black {width:130px; height:48px; background: linear-gradient(90deg, #000, #272727, #fff); text-align:left; position: relative;  font-size: 14px; font-weight: bold; line-height: 1.2; letter-spacing: 0.83px; text-align: left; color: #ffffff; padding-left:20px; margin:0 5px;}
+   .write_set .last_btns button.black span {position: absolute; right:12px; top:50%; transform: translateY(-50%); background:#fff; width:35px; height:35px; border-radius: 50%; overflow:hidden; transition: all 0.3s;}
+   .write_set .last_btns button.black span::after {content:''; width:16px; height:8px; background:url(../../images/common/img_arrow_black.png) no-repeat; background-size:100%; position: absolute; top:50%; left:50%; transform: translate(-50%, -50%); transition: all 0.3s;}
+   .write_set .last_btns button.black span::before {content:''; width:16px; height:8px; background:url(../../images/common/img_arrow_black.png) no-repeat; background-size:100%; position: absolute; top:50%; left:-50%; transform: translate(-50%, -50%);  transition: all 0.3s;}
+   .write_set .last_btns button.black:hover span {background:rgba(255,255,255,1);}
+   .write_set .last_btns button.black:hover span::after {left:150%;}
+   .write_set .last_btns button.black:hover span::before {left:50%;}
+    .write_set .flex_table ul.select_lis li + li {
+        margin-top: 0;
+    }
+	
+}
+
+@media all and (max-width:1420px) { 
+	
+	.comapny_inner dl dt {width: 35%;}
+	.comapny_inner dl dd {width: 65%;}
+	.comapny_inner dl dd p br {display: none;}
+	
+
+   .comapny_maps {display: block; padding:0;}
+   .comapny_maps .maps img, .comapny_maps .maps iframe {width:100%; }
+   .comapny_maps .info_come {margin-top:50px;}
+   .comapny_maps .info_come .company_in {}
+   .comapny_maps .info_come .company_in > strong {font-size: 28px; font-weight: bold; line-height: 0.94; letter-spacing: -1.6px; color: #000000;}
+   .comapny_maps .info_come .company_in ul {margin-top:20px;}
+   .comapny_maps .info_come .company_in li {padding-left:24px; font-size: 14px; font-weight: 500; line-height: 26px; letter-spacing: -0.9px; color: #7e7e7e;}
+   .comapny_maps .info_come .company_in li + li {margin-top:10px;}
+   .comapny_maps .info_come .company_in li span {display:inline-block; font-size: 12px; font-weight: bold; line-height: 28px; letter-spacing: -0.7px; text-align: left; color: #ffffff; width:70px; height: 24px; border-radius: 12px; background-color: #f7ba21; text-align: center;}
+   .comapny_maps .info_come .company_in li p {font-size: 14px; font-weight: 500; line-height: 28px; letter-spacing: -0.9px; color: #7e7e7e; margin-top:15px;}
+   .comapny_maps .info_come .company_in li.icon01 {background:url(../../images/company/icon_location01.png) left center no-repeat; background-size:14px auto;}
+   .comapny_maps .info_come .company_in li.icon02 {background:url(../../images/company/icon_location02.png) left center no-repeat; background-size:14px auto;}
+   .comapny_maps .info_come .company_in li.icon03 {background:url(../../images/company/icon_location03.png) left center no-repeat; background-size:14px auto;}
+   .comapny_maps .info_come .company_in li.icon04 {background:url(../../images/company/icon_location04.png) left 0px no-repeat; background-size:14px auto;}
+   .comapny_maps .info_come .company_in + .company_in {margin-top:34px; border-top:1px solid #e7e7e7; padding-top:30px;}
+
+   .company_contact {}
+   .company_contact .select_contact {margin-top:0px;/* padding:0 30px;*/}
+   
+   .company_contact .select_contact ul li a {display:block; position: relative;
+		padding-bottom: 40px;
+   }
+   .company_contact .select_contact ul li .icon01 {displaY:inline-block; width:65px; height:65px; position: relative;}
+   .company_contact .select_contact ul li .icon01::before {content:''; width:100%; height:100%; left:0; top:0; position: absolute; background: url(../../images/company/icon_contact01.png) no-repeat; background-size: 100%;}
+   .company_contact .select_contact ul li .icon01::after {content:''; width:100%; height:100%; left:0; top:0; position: absolute; background: url(../../images/company/icon_contact01_on.png) no-repeat; background-size: 100%; animation: opain 2s linear infinite;}
+
+   .company_contact .select_contact ul li .icon02 {displaY:inline-block; width:65px; height:65px; position: relative;}
+   .company_contact .select_contact ul li .icon02::before {content:''; width:100%; height:100%; left:0; top:0; position: absolute; background: url(../../images/company/icon_contact02.png) no-repeat; background-size: 100%;}
+   .company_contact .select_contact ul li .icon02::after {content:''; width:100%; height:100%; left:0; top:0; position: absolute; background: url(../../images/company/icon_contact02_on.png) no-repeat; background-size: 100%; animation: opain 2s linear infinite;}
+
+   .company_contact .select_contact ul li .icon03 {displaY:inline-block; width:65px; height:65px; position: relative;}
+   .company_contact .select_contact ul li .icon03::before {content:''; width:100%; height:100%; left:0; top:0; position: absolute; background: url(../../images/company/icon_contact03.png) no-repeat; background-size: 100%;}
+   .company_contact .select_contact ul li .icon03::after {content:''; width:100%; height:100%; left:0; top:0; position: absolute; background: url(../../images/company/icon_contact03_on.png) no-repeat; background-size: 100%; animation: opain 2s linear infinite;}
+
+   .company_contact .select_contact ul li h3 { font-size: 25px; font-weight: bold; text-align: left; color: #000000; margin-top:25px;}
+   .company_contact .select_contact ul li p {margin-top:25px; font-size: 14px; font-weight: 500; text-align: left; color: #7e7e7e;}
+   .company_contact .select_contact ul li p strong {display:block; font-size: 15px; font-weight: 500; color: #444444;}
+
+   .company_contact .select_contact ul li .btns {width:40px; height:40px; position: absolute; right:-10px; bottom:-20px; margin:0; overflow:hidden; transition: all 0.3s; border-radius: 50%; border:1px solid rgba(0, 0, 0, 0.2)}
+    .company_contact .select_contact ul li .btns::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: url(../../images/company/img_arrow.png) no-repeat center;
+        background-size: 80%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: all 0.3s;
+    }
+    .company_contact .select_contact ul li .btns::before {
+        content:''; width: 100%; height: 100%; background:url(../../images/company/icon_arrow_white.png) no-repeat center; background-size: 80%; position: absolute; top:50%; left:-50%; transform: translate(-50%, -50%);  transition: all 0.3s;}
+
+   .company_contact .select_contact ul li::after {
+   		z-index:1;
+   	}
+   .company_contact .select_contact ul li:hover::after {opacity: 1;}
+   .company_contact .select_contact ul li:hover .btns {background:#d61818; border-color:#d61818;}
+   .company_contact .select_contact ul li:hover .btns::after {left:150%;}
+   .company_contact .select_contact ul li:hover .btns::before {left:50%;}
+   
+   /* 회사소개  - 연혁 */
+   .company_history .inner_history .history_view li {width: 100%;}
+   /* 회사소개 - contact */
+   .write_set .flex_table ul li .files .file_info {font-size: 14px;}
+   .write_set .flex_table ul li + li { margin-top: 15px;}
+   
+   /* 회사소개 - 사업현황 */
+   .status_sec02 .box_bottom_wrap > div {width: 545px;}
+   .status_sec02 .box_bottom_wrap > div.box2, .status_sec02 .box_bottom_wrap > div.box3 {display: block; margin: 80px auto;}
+   .status_sec02 .box2 .bar-graph {padding: 19% 0 4% 9.5%; bottom: 4px;}
+   .graph.active .bar1 {height: 88.644% !important;}
+   .graph.active .bar2 {height: 95.604% !important;}
+   .graph.active .bar3 {height: 88.644% !important;}
+   .graph.active .bar4 {height: 91.941% !important;}
+   .graph.active .circle_graph .per_txt1,.graph.active .circle_graph .per_txt2,.graph.active .circle_graph .per_txt3 {transition-delay: 0.5s;}
+}
+@media all and (max-width:1024px) { 
+
+  /* 회사소개 - contact */
+	.company_contact {
+      padding-right: 0;
+  }
+  
+  /* 회사소개 - 오시는길 */
+	.inner_wrap .comapny_maps .maps {display: inline-block; width: 100%; }
+	.inner_wrap .comapny_maps .info_come {display: inline-block; width: 100%; padding-left: 0%;}
+	
+}
+
+@media all and (max-width:989px) { 
+	
+	
+	.comapny_inner dl dt {width: 100%;}
+	.comapny_inner dl dt img {width: 60%; }
+	.comapny_inner dl dd {width: 100%; padding: 55px 0px 0%;}
+	.comapny_maps .info_come .company_in {
+	    margin-top: 0;
+	}
+  /* 회사소개 - contact */
+  .write_set {
+      margin: 0;
+  }
+  .write_set .inner_word, .write_set .inner_word .scroll  {
+    /*height: 200px;*/
+  }
+  .write_set .flex_table ul li .files .file_txt {
+    display: block;
+    font-size: 14px;    
+    line-height: 2;
+    height: auto;
+    margin-bottom: 5px;
+  }
+	.write_set .flex_table ul li .files .file_info {
+    margin-left: 0;    
+    line-height: 1.4;
+    padding: 10px 10px !important;
+  }
+  .write_set .flex_table ul li .files .file_in_bx {
+    margin-bottom: 10px;
+  }
+	.write_set .inner_word .service-wrap {
+    margin-top: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    background: #fff;
+    min-height: 800px;
+  }
+
+  .write_set .inner_word .service-wrap h1 {
+      font-size: 18px;
+  }
+
+  .write_set .inner_word .service-wrap h2 {
+      font-size: 16px;
+  }
+
+  .write_set .inner_word .service-wrap h3 {
+      font-size: 14px;
+  } 
+  .write_set .inner_word .service-wrap {
+    padding: 0;
+  }
+
+  .write_set .inner_word .service-wrap .service-dep1 li {
+    font-size: 12px;
+  }
+
+
+	/* 회사소개 - 연혁 */
+	.company_history {}
+   .company_history .x_scroll {margin:0 auto; overflow-x: auto;}
+   .company_history .history_wrap .years_tabs {width: 979px; padding: 10px 0;}
+   .company_history .years_tabs li a {display:inline-block;  width: 114px; height: 40px; border-radius: 10px; border: solid 1px #cccccc; background-color: #ffffff; font-size: 14px; font-weight: bold; line-height: 40px; letter-spacing: -0.9px; text-align: center; color: rgba(127, 127, 127, 0.97);}
+   .company_history .years_tabs li.on a {border: solid 2px #d61818; color: rgba(0, 0, 0, 0.97);}
+   .company_history .years_tabs li + li {margin-left:10px;}
+   .company_history .inner_history {margin-top:30px; position: relative; padding-top:30px; margin-left:0px; padding-bottom:100px;}
+   .company_history .inner_history::before {content:''; width:1px; height:100%; background:#ebebeb; position: absolute; left:205px; top:0; display:none;}
+   .company_history .inner_history h3 {width:auto; font-family: Catamaran; font-size: 35px; font-weight: bold; line-height: 1; letter-spacing: -1.76px; color: #000000;}
+   .company_history .inner_history .history_box {display: block; padding:0;}
+   .company_history .inner_history .history_box + .history_box {margin-top:80px;}
+   .company_history .inner_history .history_view {}
+   .company_history .inner_history .history_view h4 {font-family: Catamaran; font-size: 20px; font-weight: bold; line-height: 1.76; letter-spacing: -1px; text-align: left; color: #000000; padding-bottom:7px;}
+   .company_history .inner_history .history_view ul {margin-top:23px;}
+   .company_history .inner_history .history_view ul + h4 {margin-top:50px;}
+   .company_history .inner_history .history_view li {position: relative; width:auto; height:auto; box-shadow: -4.5px 5.4px 25.8px 3.2px rgba(90, 90, 90, 0.03); background-color: #ffffff; transition: all 0.3s;}
+   .company_history .inner_history .history_view li div {padding:35px 15px; display:flex;}
+   .company_history .inner_history .history_view li::after {content:''; width:9px; height:9px; position: absolute; left:-75px; top:50%; transform: translateY(-50%); background-color: #7f7f7f; border-radius: 50%; display: none;}
+   .company_history .inner_history .history_view li div > strong {width: 82px; height: 35px;  border-radius: 17px; background-color: #d61818; font-size: 16.5px; font-weight: 500; line-height: 35px; letter-spacing: 0.52px; text-align: center; color: #ffffff;}
+   .company_history .inner_history .history_view li div p {font-size: 18px; line-height: 1.56; letter-spacing: -0.9px; color: #484848; padding:6px 0 0 27px;}
+   .company_history .inner_history .history_view li div p strong {display:block; font-weight: bold; color: #000000;}
+   .company_history .inner_history .history_view li.on {box-shadow: -3.9px 4.6px 31.2px 3.9px rgba(90, 90, 90, 0.1); background-color: #ffffff;}
+   .company_history .inner_history .history_view li:hover {box-shadow: -3.9px 4.6px 31.2px 3.9px rgba(90, 90, 90, 0.1); background-color: #ffffff; transform: translate(0, -4px);}
+   .company_history .inner_history .history_view li + li {margin-top:10px;}
+
+   .company_history .inner_history .history_box h3 {transform: translateX(-50px); opacity: 0; transition: all 0.3s;}
+   .company_history .inner_history .history_box .history_view {transform: translateX(50px); opacity: 0; transition: all 0.3s 0.2s;}
+   .company_history .inner_history .history_box.active h3 {transform: translateX(0px); opacity: 1;}
+   .company_history .inner_history .history_box.active .history_view {transform: translateX(0px); opacity: 1; width: 100%; padding-left: 0;}
+
+	.company_history .x_scroll .history_wrap {padding: 0; overflow-x: scroll; -ms-overflow-x: scroll; -webkit-overflow-x: scroll; -moz-overflow: scroll; -o-overflow-x: scroll; width: 100%; -ms-overflow-style: none; scrollbar-width: none;}
+	.company_history .x_scroll .history_wrap::-webkit-scrollbar { display: none; }
+/*	.company_history .history_wrap .years_tabs li {width: 140px;}*/
+	.company_history .history_wrap .years_tabs li {width: 117px;}		/* 20220422-dhkim 2022년 연혁추가 */
+   .company_contact .select_contact ul li {}
+   
+   /* 회사소개 - 사업현황 */
+   .status_year .status_arrow {max-width: 989px; width: 989px; height: auto;}
+   .status_year .year {width: 969px; }
+   .status_year li {padding-top: 6.5%;}
+   .status_year li span {font-size: 13px;}
+   .status_year li p {font-size: 18px; margin: 0px 0 15px 0;}
+   .status_sec02 .box1 h2 {font-size: 30px;}
+   .pro_nm > div:nth-of-type(4),.pro_nm > div:nth-of-type(5) {margin-top: 10px;}
+   .status_sec02 .box2 .bar-graph {padding: 19% 0 4% 13%; bottom: 4px;}
+   .bar-graph .svg_wrap {font-size: 0; text-align: left;}
+   svg.bar {width: 11%; margin-left: 12% !important;}
+   
+   
+  
+   
+}
+
+@media all and (max-width:767px) { 
+	 /* contact */
+  .write_set .inner_word .scroll::-webkit-scrollbar, .select_lis::-webkit-scrollbar{
+    width: 5px;
+    border-radius: 2.5px;
+    background: #ccc;
+  }
+  .write_set .inner_word .scroll::-webkit-scrollbar-thumb, .select_lis::-webkit-scrollbar-thumb {
+    background-color: #d61818;    
+    border-radius: 2.5px;
+  }
+  .inner_content.inner_company {
+    padding: 40px 15px 100px;
+  }
+
+	/* 회사소개 - 인사말 */	
+   .comapny_inner dl {display:block;}
+   .comapny_inner dl dt {transform: translateX(-50px); opacity: 0;}
+   .comapny_inner dl dt img {width:100%;}
+   .comapny_inner dl dd {width:100%; margin-left:0px; margin-top:30px;}
+   .company_cont_wrap .comapny_inner dl dd {width: 100%; padding: 0px 0px 0%;}
+   .comapny_inner dl dd h2 {font-size: 22px; font-weight: bold; line-height: 1.5; transform: translateY(50px); opacity: 0;}
+   .comapny_inner dl dd h2 strong {color:#d61818; font-weight: bold;}
+   .comapny_inner dl dd h2 + p {margin-top:20px;}
+   .comapny_inner dl dd p {font-size: 14px; font-weight: 500; line-height: 1.67; letter-spacing: -0.9px; text-align: left; color: #7e7e7e; margin-top:20px; transform: translateY(50px); opacity: 0;}
+   .comapny_inner.active dt {transition: all 0.3s; transform: translateX(0); opacity: 1;}
+   .comapny_inner.active h2 {transition: all 0.3s; transform: translateX(0); opacity: 1;}
+   .comapny_inner.active p:nth-child(1) {transition: all 0.3s 0.2s; transform: translateX(0); opacity: 1;}
+   .comapny_inner.active p:nth-child(2) {transition: all 0.3s 0.3s; transform: translateX(0); opacity: 1;}
+   .comapny_inner.active p:nth-child(3) {transition: all 0.3s 0.4s; transform: translateX(0); opacity: 1;}
+   .comapny_inner.active p:nth-child(4) {transition: all 0.3s 0.5s; transform: translateX(0); opacity: 1;}
+   .comapny_inner.active p:nth-child(5) {transition: all 0.3s 0.6s; transform: translateX(0); opacity: 1;}
+   .comapny_inner.active p:nth-child(6) {transition: all 0.3s 0.7s; transform: translateX(0); opacity: 1;}
+
+   
+   /* 회사소개 - 임원진소개 */
+   .company_clevel {display: block; }
+   .company_clevel li {transform: translateY(50px); opacity: 0; }
+   .company_clevel li dt img {width:100%;}
+   .company_clevel li dd {padding-top:37px;}
+   .company_clevel li dd strong {font-size: 22px; font-weight: bold; line-height: 0.94; letter-spacing: -1.6px; color: #000000; display: block;}
+   .company_clevel li dd span {font-size: 14px; font-weight: 500; line-height: 1.56; letter-spacing: -0.9px; color: #444444; display: block; margin-top:23px;}
+   .company_clevel li dd p {margin-top:15px; padding-top:15px; border-top:1px solid #5e5e5e; font-size: 14px; font-weight: 500; line-height: 1.63; letter-spacing: -0.8px; text-align: left; color: #7e7e7e;}
+   .company_clevel li + li {margin-top:50px;}
+   .company_clevel.active li:nth-child(1) {transition: all 0.3s; transform: translateY(0px); opacity: 1;}
+   .company_clevel.active li:nth-child(2) {transition: all 0.3s 0.2s; transform: translateY(0px); opacity: 1;}
+   .company_clevel.active li:nth-child(3) {transition: all 0.3s 0.4s; transform: translateY(0px); opacity: 1;}
+   .clevel_wrap {padding: 0;}
+   .clevel_wrap .company_clevel li {width: 100%; display: table; font-size: 0; margin: 0 0 50px;}
+   .clevel_wrap .company_clevel li:not(:nth-of-type(1)) {margin-left: auto;}
+   .clevel_wrap .company_clevel li dt {width: 40%; display: inline-block;}
+   .clevel_wrap .company_clevel li dd {width: 60%; display: inline-block; }
+	
+	.comapny_maps .info_come .company_in > strong{
+		font-size:20px;
+	}
+	.comapny_maps .info_come .company_in li + li{
+		margin-top:5px;
+	}
+	.comapny_maps .info_come{
+		margin:30px 0 0;
+	}
+	.comapny_maps .info_come .company_in + .company_in{
+	    margin-top: 25px;
+	}
+	.comapny_maps .info_come .company_in ul {
+	    margin-top: 10px;
+	}
+	.comapny_maps .info_come .company_in li p{
+		margin-top:10px;
+	}
+	.company_contact .select_contact ul {display:block;}
+	.company_contact .select_contact ul li{
+		width:100%;
+	}
+	.company_contact .select_contact ul li + li{
+	    margin-top: 15px;
+	    margin-right:0;	    
+	}
+	
+	/* 회사소개 - 사업현황 */
+	.status_tit > div {background: none !important;}
+	.status_tit .status_tit3 {width: 300px; height: 50px; }
+	.status_tit .status_tit3 h2 {font-size: 30px; color: #000;}	
+	/*.status_tit .status_tit3 {width: 450px;}*/
+	.status_sec02 {padding: 70px 0 0;}
+	.status_sec02 .box_bottom_wrap > div {width: 100%;}
+	.status_sec02 .box_bottom_wrap > div.box2 {margin: 20px auto;}
+   .graph1 {width: 1500px; padding: 0px 0 0px 0px; margin: 0; background: url(../../images/company/graph1_bg_mo.png) center bottom no-repeat; -webkit-background-size: 100%; background-size: 100%;}
+   .status_sec02 .box_bottom_wrap {margin: 0;}
+   
+	
+	
+}
+
+@media all and (max-width:500px) { 
+	/* 회사소개 - 임원진소개 */
+	.clevel_wrap .company_clevel li dt {width: 100%;}
+	.clevel_wrap .company_clevel li dd {width: 100%; padding: 30px 0 0;}
+	
+	/* 회사소개 - 연혁 */
+	.company_history .inner_history .history_box_wrap h3 {display: block; width: 100%; text-align: center;}
+	.company_history .inner_history .history_view h4 {text-align: center;}
+	.company_history .inner_history .history_view ul {margin-top: 10px;}
+	.company_history .inner_history .history_view li div {display: block; padding: 15px;}
+	.company_history .inner_history .history_view li div > strong {width: 25%; display: block; margin: auto;}
+	.company_history .inner_history .history_view li div p {width: 100%; padding: 15px 0 0; font-size: 16px; text-align: center;}
+	.company_history .inner_history .history_view li div p strong {font-size: 18px;}
+	
+	/* 회사소개 - 사업현황 */
+	
+	.status_sec02 .box_bottom_wrap > div h3,.status_sec02 .box1 h2 {font-size: 25px;}
+	.pro_nm p {font-size: 15px;}
+	.circle_graph .per_txt1 {left: 26%;}
+	.circle_graph .per_txt2 {left: 65%;}
+	.circle_graph .per_txt3 {left: 54.6%;}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	

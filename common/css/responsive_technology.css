@@ -1,0 +1,332 @@
+@media all and (max-width:1480px) {
+	.tech_area .boxr div > strong{
+    	font-size: 20px;
+	}
+	.tech_area .boxr div > strong, .tech_area .boxr div{
+    	width:260px;	
+	}
+	.tech_area .boxr div p{
+		font-size:16px;
+	}
+	.tech_area{
+    	width: 958px;
+	}
+	.tech_area .display strong{
+		font-size:36px;
+	}
+	
+	/* 핵심기술 - 품질관리 */
+	.quality_sec3 .circle_tit {
+		width: 200px;
+    	height: 200px;
+	}
+	.quality_sec3 .circle_tit .circle_tit3 p {
+		font-size: 28px;
+	}
+	.quality_sec3 .cont1 > div:not(:nth-of-type(2)) {
+		margin-top: 150px;
+	}
+	.quality_sec3 .circle_cont .cont- .subject {
+		font-size: 13px;
+	}
+	.quality_sec3 .circle_cont .cont- .subject1 {
+	    left: -197%;
+	}
+	.quality_sec3 .circle_cont .cont- .subject2 {
+		top: -70%;
+	}
+	.quality_sec3 .circle_cont .cont- .cont_tit {
+		width: 130px;
+    	height: 130px;
+	}
+	.quality_sec3 .circle_cont .cont- .cont_tit span {
+		font-size: 17px;
+	}
+}
+@media all and (max-width:1280px) {
+	.tech_area .display, .tech_area .display::before{
+		width:200px;
+		height:200px;
+	}
+	.tech_area .display::before{
+    	margin: -100px 0 0 -100px;
+    }
+    .tech_area::before{
+    	width:320px;
+    }
+    .tech_area {
+	    width: 877px;
+	}
+	
+	
+	/* 품질관리 */
+	.body-quality .content_inner div {
+		padding: 20px 10px;
+	}
+	.body-quality .content_inner div p {
+		font-size: 15px;
+	}
+	.body-quality .content_inner div span {
+		width: 30px;
+		height: 30px; 
+		line-height: 30px;
+	}
+	.quality_sec3 .circle_tit {
+		width: 170px;
+    	height: 170px;
+	}
+	.quality_sec3 .cont1 > div:not(:nth-of-type(2)) {
+	    margin-top: 120px;
+	}
+	.quality_sec3 .cont1 > div:not(:last-child) {
+		margin-right: 30px;
+	}
+	.quality_sec3 .cont2 > div {
+		margin-top: 70px;
+	}
+	.quality_sec3 .cont2 > div:not(:last-child) {
+		margin-right: 113px;
+	}
+	
+	
+}
+@media all and (max-width:989px) {
+	.mo-ver {display: block;}
+	.pc-ver {display: none;}
+	
+	.tech_area {
+		padding: 40px 15px 0;
+		width: 100%;
+	}
+	.tech_area .boxr{
+  		justify-content: center;
+  	}
+	.tech_area .boxr div{
+		margin:0 15px;
+	}
+	
+	.tech_area::before {
+		display: none;
+	}
+	.tech_area .display{
+	    position: relative;
+	    top: auto;
+	    transform: none;
+	    left: auto;
+	    display: flex;
+	    margin: 0 auto 50px;
+	}
+	.tech_area .boxr + .boxr {
+	    margin-top: 30px;
+	}
+	.tech_area .boxr div > strong{
+		font-size:16px;
+	}
+	
+/* 	.tech_area .boxr { */
+/* 		display: block; */
+/* 	} */
+	
+/* 	.tech_area .boxr div { */
+/* 		width: auto; */
+/* 		position: relative; */
+/* 	} */
+	
+/* 	.tech_area .boxr div>strong { */
+/* 		width: 100%; */
+/* 		height: 40px; */
+/* 		border-radius: 27px; */
+/* 		border: solid 2px #d61818; */
+/* 		background-color: #ffffff; */
+/* 		box-sizing: border-box; */
+/* 		text-align: center; */
+/* 		font-size: 20px; */
+/* 		font-weight: bold; */
+/* 		line-height: 40px; */
+/* 		letter-spacing: -0.64px; */
+/* 		text-align: center; */
+/* 		color: #000000; */
+/* 		display: block; */
+/* 	} */
+	
+/* 	.tech_area .boxr div p { */
+/* 		margin-top: 15px; */
+/* 		font-size: 16px; */
+/* 		font-weight: 500; */
+/* 		line-height: 1.8; */
+/* 		letter-spacing: -0.9px; */
+/* 		color: #7e7e7e; */
+/* 		padding-left: 15px; */
+/* 	} */
+	
+	.tech_area .boxr div::before {
+		display: none;
+	}
+	
+	.tech_area .boxr div::after {
+		display: none;
+	}
+	
+/* 	.tech_area .boxr div+div { */
+/* 		margin-top: 20px; */
+/* 	} */
+	
+/* 	.tech_area .boxr+.boxr { */
+/* 		margin-top: 370px; */
+/* 	} */
+	
+/* 	.tech_area .boxr .box01 { */
+/* 		position: relative; */
+/* 	} */
+	
+/* 	.tech_area .display { */
+/* 		width: 180px; */
+/* 		height: 180px; */
+/* 		position: absolute; */
+/* 		left: 50%; */
+/* 		transform: translateX(-50%); */
+/* 		top: 450px; */
+/* 		border-radius: 50%; */
+/* 		background: #d61818; */
+/* 		display: flex; */
+/* 		align-items: center; */
+/* 		justify-content: center; */
+/* 		text-align: Center; */
+/* 	} */
+	
+/* 	.tech_area .display img { */
+/* 		width: 55px; */
+/* 	} */
+	
+/* 	.tech_area .display div { */
+/* 		position: relative; */
+/* 	} */
+	
+	.tech_area .display strong {
+		font-size: 26px;
+		margin-top: 15px;
+	}
+	/* 핵심기술 - 품질관리 */
+	.body-quality .inner_wrap .inner_content {padding: 50px 0px 0px;}
+	.body-quality section.quality_sec3 {padding-bottom: 100px;}
+	.quality_sec3 .content_inner2 {margin-top: 45px;}
+	.quality_sec3 .tit_txt h2 {padding-top: 95px;}
+	
+}
+@media all and (max-width:767px) {
+	
+	
+	/* 핵심기술 - 품질관리 */
+	.body-quality section {margin-top: 90px; padding: 0 15px;}
+	.body-quality section.quality_sec1 {margin-top: 40px;}
+   .body-quality .tit_txt h2 {font-size: 30px;}
+   .quality_sec3 .tit_txt h2 {padding-top: 90px;}
+   .body-quality .tit_txt p,.body-quality .content_inner div p,.body-quality .content_inner div p {font-size: 13px;}
+   .body-quality .content_inner {padding: 40px 15px; margin-top: 0;}
+   .body-quality .content_inner div {padding: 20px 10px;}
+   .body-quality .content_inner div span {width: 30px; height: 30px; line-height: 30px; font-size: 15px;}
+   .quality_sec3 .tit_txt h2 {
+		font-size: 33px;
+	}
+	.quality_sec3 .mo-ver .circle_tit {
+		width: 125px;
+		height: 125px;
+	}
+	.quality_sec3 .mo-ver .circle_tit .circle_tit3 p {
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.quality_sec3 .mo-ver .circle_cont .cont- .cont_tit {
+		width: 100px;
+		height: 100px;
+		padding: 0;
+	}
+	.quality_sec3 .mo-ver .circle_cont .cont- .cont_tit span {
+		font-size: 13px;
+	}
+	.quality_sec3 .cont1 > div:not(:nth-of-type(2)) {
+	    margin-top: 100px;
+	}
+	.quality_sec3 .mo-ver .cont2 > div:not(:last-child) {
+		margin-right: 83px;
+	}
+	.quality_sec3 .mo-ver .cont2 > div {
+	    margin-top: 40px;
+	}
+   
+}
+@media all and (max-width:500px) {
+	.tech_area .boxr div > strong, .tech_area .boxr div{
+		width:100%;
+	}
+	.tech_area .boxr {
+    	display: block;
+	}
+	.tech_area .boxr div p{
+		padding:0;
+		margin-top:10px;
+	}
+	.tech_area .boxr div > strong{
+		line-height:36px;
+    	height: 40px;
+	}
+	.tech_area .boxr + .boxr {
+	    margin-top: 0;
+	}
+	.tech_area .boxr div{
+		margin:0 0 20px;
+	}
+	
+	/* 품질관리 */
+	.quality_sec3 .mo-ver .circle_cont .cont- .cont_tit {
+		width: 85px;
+    	height: 85px;
+	}
+	.quality_sec3 .mo-ver .circle_cont .cont- .cont_tit span {
+	    font-size: 11px;
+	}
+	.quality_sec3 .mo-ver .circle_tit {
+	    width: 100px;
+	    height: 100px;
+	}
+	.quality_sec3 .mo-ver .circle_tit .circle_tit3 p {
+	    font-size: 15px;
+	}
+	.quality_sec3 .cont1 > div:not(:nth-of-type(2)) {
+		margin-top: 80px;
+	}
+	.quality_sec3 .cont1 > div:not(:last-child) {
+	    margin-right: 15px;
+	}
+	.quality_sec3 .mo-ver .cont2 > div:not(:last-child) {
+	    margin-right: 49px;
+	}
+	.quality_sec3 .mo_subject .cont_tit {
+		width: 85px;
+    	height: 85px;
+    	margin-right: 40px;
+	}
+	.quality_sec3 .mo_subject .cont_tit span {
+		font-size: 11px;
+	}
+	.quality_sec3 .mo_subject .subject_txt {
+		width: 170px;
+    	height: 119px;
+    	padding: 20px 0px 20px 10px;
+	}
+	.quality_sec3 .mo_subject .subject_txt2 {
+		padding: 35px 0px 35px 10px;
+	}
+	.quality_sec3 .mo_subject .subject_txt span {
+	    font-size: 12px;
+	}
+	
+	/* 핵심기술 - 특허현황 */
+	.body-license .tableSt01  {
+		overflow-x: auto;
+	}
+	.body-license .tableSt01 table {
+		width: 500px;
+	}
+	
+}

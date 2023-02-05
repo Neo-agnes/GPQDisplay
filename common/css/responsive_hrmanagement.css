@@ -1,0 +1,575 @@
+﻿@media all and (max-width:1800px) { 
+	/* 인재영입 */
+	#hire_1_box{max-width:1360px;}
+	.hire_info .section_01.on .hire_1_right .hire_txtCircle{left: 41.2%;}
+	.hire_info .section_01.on .hire_1_left .hire_txtCircle{right: 41.2%;}
+	
+}
+
+@media all and (max-width:1750px) { 
+	/* 인재영입 - 인사제도 */
+	.hire_txtCircle{width: 169px;}
+	.hire_1_right .hire_txtCircle::after{left: 98%;}
+}
+
+
+
+
+@media all and (max-width:1600px) { 
+	
+	.inner_wrap .inner_content {width: auto; padding: 80px 140px 190px 50px;}
+	
+	/* 인재영입  */
+	.hire_1_contBox { max-width: 1380px;  transform: scale(0.8); -webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);	-ms-transform: scale(0.8);	-o-transform: scale(0.8);	}
+	#hire_1_box{padding: 95px 30px;}
+	
+	/* 인재영입 - 인사제도 */
+	.hire_info_wrap .section > div, .hire_info_wrap .section.section_04 #hire_4_box {padding: 150px 50px; max-width:100%;}
+	
+	.hire_info .section_01.on .hire_1_right .hire_txtCircle{left: 43.5%;}
+	.hire_info .section_01.on .hire_1_left .hire_txtCircle{right: 43.5%;}
+	
+	
+}
+
+@media all and (max-width:1550px) { 
+	/* 인재영입 */
+/* 	#hire_1_box {max-width: 1390px;} */
+}
+
+
+@media all and (max-width:1480px) { 
+	/* 복리후생 */
+	.human_list ul li strong{
+		font-size:26px;
+	}
+	.human_list ul li p{
+		font-size:16px;
+	}
+	
+	/* 인재영입 - 인사제도 */
+	.hire_info_wrap .section > div > h2{font-size: 50px;}
+	.hire_info_wrap .section > div, .hire_info_wrap .section > div, .hire_info_wrap .section.section_04 #hire_4_box {padding: 95px 30px;}
+	.hire_info_wrap .section_02 #hire_2_box > p,.hire_info_wrap .section.section_04 #hire_4_box > p { margin-bottom: 30px;}
+	.system_list li h5{font-size: 17px; padding: 10px 0;}
+	.hire_info_wrap .section_02 #hire_2_box .system_list li p{font-size: 14px; padding: 15px;}
+	.hire_info_wrap .section > div#hire_3_box table th{font-size: 17px;}
+	.hire_info_wrap .section > div#hire_3_box table td{font-size: 14px; padding: 20px;}
+	.hire_info_wrap .section > div#hire_3_box .hire_system_process h3{font-size: 28px;}
+	.hire_info_wrap .section > div#hire_3_box .hire_system_process{padding: 35px 0 55px 0;}
+	.hire_info_wrap .section > div#hire_3_box .hire_system_process p{font-size: 14px;}
+	#hire_3_box button.step01-btn{font-size: 24px;height: 100px;line-height: 100px;}
+	.hire_info_wrap .section.section_04 #hire_4_box .education_system_list li{font-size: 16px; height: 60px; line-height: 60px;}
+	.hire_info_wrap .section.section_04 #hire_4_box .education_system_list li:nth-child(2)::after, 
+	.hire_info_wrap .section.section_04 #hire_4_box .education_system_list li:nth-child(2)::before, 
+	.hire_info_wrap .section.section_04 #hire_4_box .education_system_list li:nth-child(4)::after, .hire_info_wrap .section.section_04 #hire_4_box .education_system_list li:nth-child(4)::before{background-size:16px;}
+	.education_system_arrow{width: 65px; height: 65px; margin: 30px 0; left: 50%; -webkit-transform: translateX(-50%);-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%); -o-transform: translateX(-50%);transform: translateX(-50%);}
+	.hire_info_wrap .section.section_04 #hire_4_box .education_system_list{text-align: center; width: 100%;}
+	.education_system_list_bottom{max-width:none;}
+	.education_system_list_bottom li{width: 15%;}
+	.education_system_list_bottom li span{font-size: 15px;}
+	.education_system_list_bottom li:not(:last-child)::after{width: 50%;}
+	
+	.hire_info .section_01.on .hire_1_left .hire_txtCircle{right: calc(100% - 398px);}
+	.hire_info .section_01.on .hire_1_right .hire_txtCircle{left: calc(100% - 398px);}
+	.hire_1_right .hire_txtCircle::after {left: 100%;}
+	
+	
+	@keyframes line-ani-4{
+		0%{width: 0;}
+		100%{width:7vw;}	
+	}
+	@keyframes line-ani-3{
+		0%{width: 0;}
+		100%{width:11vw;}	
+	}
+	
+	
+	
+	
+	
+	/* 인재영입 - philosophy */
+/* 	.philosophy_list, .hire_1_contBox{display: block;} */
+/* 	.philosophy_list li p{position: relative;} */
+/* 	.hire_1_left .philosophy_list li.circle_li > div::after{right: 50%; top: auto; bottom: 0; transform: translateX(-50%) rotate(90deg);} */
+/* 	.philosophy_list li.circle_li{display: inline-block;} */
+/* 	.hire_1_left, .hire_1_right{width: 100%;} */
+/* 	.hire_1_contBox .circle{position: relative; height: 500px; top: auto; -webkit-transform: translate(-50%, 0); */
+/* 	-moz-transform: translate(-50%, 0); */
+/* 	-ms-transform: translate(-50%, 0); */
+/* 	-o-transform: translate(-50%, 0); */
+/* 	transform: translate(-50%, 0);} */
+
+	
+
+	
+}
+
+
+
+@media all and (max-width:1335px) { 
+	
+	/* 인재영입 */
+	.hire_1_right .hire_txtCircle::after{left: 98%;}
+	@keyframes line-ani-4{
+		0%{width: 0;}
+		100%{width:7.35vw;}	
+	}
+	
+	
+}
+
+@media all and (max-width:1280px) { 
+	/* 복리후생 */
+	.human_list ul li {
+	    min-height: 320px;
+	    height:	320px;
+	    width:32%;
+	    margin:0 2% 2% 0 !important;
+	}
+	.human_list ul li:nth-child(3n) {
+	    margin-right: 0 !important;
+	}
+   .human_list ul li:nth-child(4) {margin-top:15px;}
+   .human_list ul li::before {content:''; width:100%; height:100%; position: absolute; opacity: 0.7; border: solid 2px #e7e7e7; left:0; top:0; transition: all 0.3s;}
+   .human_list ul li:hover::before {border: solid 2px #d61818;}
+	.human_list ul li::after {
+	    right: 30px !important;
+	    background-size: 60% !important;
+	    background-position: right bottom !important;
+	}
+   
+	/* 인재영입 */
+	.hire_info_wrap .section > div > h2{font-size: 40px; margin-bottom: 0;}
+	.hire_info_wrap .section_02 #hire_2_box > p, .hire_info_wrap .section.section_04 #hire_4_box > p{font-size: 15px; margin-bottom: 20px;}
+	.system_list li h5{font-size: 15px;}
+	.hire_info_wrap .section > div#hire_3_box table th {font-size: 15px;}
+	.hire_info_wrap .section > div#hire_3_box .hire_system_process h3 {font-size: 25px;}
+	.hire_info_wrap .section > div#hire_3_box .hire_system_process p{margin-top: 30px;}
+	#hire_3_box button.step01-btn{height: 85px; line-height: 85px; font-size: 21px;}
+	.education_system_list_bottom li span {font-size: 14px;line-height: 22px;}
+	.hire_info_wrap .section.section_04 #hire_4_box .education_system_list li{font-size: 14px;}
+	.education_system_list_bottom li span{font-size: 13px;}
+	
+	.hire_1_contBox{display: none;}
+	.hire_1_contBox_mo{display: block;}
+	
+	
+	
+	/* li 애니메이션 수정 */
+	 @keyframes philo-show-right{ 
+		0%{
+			opacity: 0;
+			transform: translate(0,100px);
+			-webkit-transform: translate(0,100px);
+			-moz-transform: translate(0,100px);
+			-ms-transform: translate(0,100px);
+			-o-transform: translate(0,100px);
+			
+		}
+		100%{
+			opacity: 1;
+			transform: translate(0,0);
+		    -webkit-transform: translate(0,0);
+		    -moz-transform: translate(0,0);
+		    -ms-transform: translate(0,0);
+		    -o-transform: translate(0,0);
+		}	
+	} 
+	
+	@keyframes philo-show-left{ 
+		0%{
+			opacity: 0;
+			transform: translate(0,-100px);
+			-webkit-transform: translate(0,-100px);
+			-moz-transform: translate(0,-100px);
+			-ms-transform: translate(0,-100px);
+			-o-transform: translate(0,-100px);
+			
+		}
+		100%{
+			opacity: 1;
+			transform: translate(0,0);
+		    -webkit-transform: translate(0,0);
+		    -moz-transform: translate(0,0);
+		    -ms-transform: translate(0,0);
+		    -o-transform: translate(0,0);
+		}	
+	} 
+	
+	@keyframes line-ani{
+		0%{ height: 0; }
+		100%{ height: 25px;}
+	}
+	@keyframes line-ani-2{
+		0%{width: 0;}
+		100%{width: 225px;}	
+	}
+	@keyframes line-ani-3{
+		0%{height: 0;}
+		100%{height: 83px;}	
+	}
+	@keyframes line-ani-4{
+		0%{height: 0;}
+		100%{height: 71px;}	
+	}
+	@keyframes line-ani-5{
+		0%{width: 0;}
+		100%{width: 186px;}	
+	}
+	
+	
+	.education_system_list_bottom{padding: 0;}
+	
+	
+}
+
+
+@media all and (max-width:1130px) {
+	/* 인재영입 */
+	.hire_system_process .process_list{display: table; table-layout: fixed; width: 100%;}
+	.hire_info_wrap .section > div#hire_3_box .hire_system_process .process_list li{width: 25%; display: table-cell;}
+	.hire_info_wrap .section > div#hire_3_box .hire_system_process .process_list li:not(:last-child)::after{right: -22px;}
+	
+}
+
+
+@media all and (max-width:1080px) {
+	/* 인재영입 */
+	.hire_info_wrap .section_02 #hire_2_box .system_list li > div{height: 240px;}
+	.hire_info_wrap .section_02 #hire_2_box .system_list li p{font-size: 13px;}
+	.hire_info_wrap .section > div#hire_3_box .hire_system_process{padding: 35px 10px 55px 10px;}
+	
+}
+
+
+@media all and (max-width:1024px) { 
+	
+	.inner_wrap .inner_content {width: auto; padding: 80px 50px 190px;}
+	
+	/* 인재채용 - 인재영입 */
+	body.hire_info .section{width: 100%;}
+	
+}
+
+@media all and (max-width:989px) { 
+	
+	.inner_wrap .inner_content {width: auto; padding: 50px 15px 90px;}
+	
+	/* 인재채용 - 인재영입 */
+/* 	#hire_1_box {padding: 89.5px 15px 175px;} */
+/* 	.hire_info_wrap .section > div#hire_1_box > h2 {} */
+	
+/* 	.hire_1_contBox {display: block; width: 100%;} */
+/* 	.hire_1_left, .hire_1_right {display: block; width: 100%;} */
+/* 	.hire_1_left .philosophy_list {display: table; width: 100%; font-size: 0; margin-top: 37px;} */
+/* 	.philosophy_list li.circle_li {display: inline-block;} */
+/* 	.philosophy_list li.circle_li:not(:last-child) {margin-right: 8%;} */
+	
+/* 	.hire_txtCircle {right: 50%; transform: translate(-50%, -50%);} */
+	
+/* 	.hire_1_contBox .circle {position: static; transform: none;} */
+	
+	.hire_info_wrap .section > div, .hire_info_wrap .section > div, .hire_info_wrap .section.section_04 #hire_4_box{padding: 90px 15px;}
+	.hire_info_wrap .section > div > h2{font-size: 30px; }
+	.hire_info_wrap .section_02 #hire_2_box > p, .hire_info_wrap .section.section_04 #hire_4_box > p{font-size: 13px; }
+	.system_list li h5 {font-size: 14px;}
+	.hire_info_wrap .section > div#hire_3_box .hire_system_process .process_list li img{width: 80%;}
+	.hire_info_wrap .section > div#hire_3_box .hire_system_process .process_list li:not(:last-child)::after{width: 30px; -webkit-background-size: 30px;
+	background-size: 30px; top: 50%;}
+	.education_system_list_bottom li{width: 17%;}
+	.hire_info_wrap .section.section_04 #hire_4_box .education_system_list li{font-size: 14px; font-weight: normal;}
+	.hire_info_wrap .section.section_04 #hire_4_box .education_system_list li:nth-child(2)::after, .hire_info_wrap .section.section_04 #hire_4_box .education_system_list li:nth-child(2)::before, .hire_info_wrap .section.section_04 #hire_4_box .education_system_list li:nth-child(4)::after, 
+	.hire_info_wrap .section.section_04 #hire_4_box .education_system_list li:nth-child(4)::before{-webkit-background-size: 14px;
+	background-size: 14px;}
+	.hire_info_wrap .section.section_04 #hire_4_box .education_system_list li{width: 22%;}
+	#hire_1_box{padding: 90px 15px;}
+	
+}
+
+@media all and (max-width:767px) { 
+	/* 인재채용 - 복리후생 */
+   .human_list ul li {
+	    width:49%;
+	    margin:0 2% 2% 0 !important;
+	}
+	.human_list ul li:nth-child(3n) {
+	    margin-right: 2% !important;
+	}
+	.human_list ul li:nth-child(2n) {
+	    margin-right: 0 !important;
+	}
+	.human_list .link_all {margin-top:20px; height: 60px; background: linear-gradient(90deg, rgba(214,24,24,1) 0%, rgba(214,24,24,1) 29%, rgba(255,255,255,1) 100%); font-size: 16px; font-weight: bold; line-height: 1.31; letter-spacing: -1.6px; color: #ffffff; width:100%;}
+   .human_list .link_all span {background:#fff; width:40px; height:40px; border-radius: 50%; overflow:hidden; display:inline-block; position: relative; vertical-align: middle; margin-left:19px;}
+   .human_list .link_all span::after {content:''; width:16px; height:8px; background:url(../../images/main/img_arrow.png) no-repeat; background-size:100%; position: absolute; top:50%; left:50%; transform: translate(-50%, -50%); transition: all 0.3s;}
+   .human_list .link_all span::before {content:''; width:16px; height:8px; background:url(../../images/main/img_arrow.png) no-repeat; background-size:100%; position: absolute; top:50%; left:-50%; transform: translate(-50%, -50%);  transition: all 0.3s;}
+   .human_list .link_all:hover span::after {left:150%;}
+   .human_list .link_all:hover span::before {left:50%;}
+	
+	.comapny_maps .maps iframe{
+		height:250px;
+	}
+	
+	/* 인재채용 - 복리후생 */   
+   .human_list ul li strong{
+		font-size:18px;
+   }
+   .human_list ul li strong br{
+  		display:none;
+   }
+   .human_list ul li p{
+   		margin-top:10px;
+   		font-size:14px;
+   }
+   .human_list ul li {
+	    padding:40px 30px;
+   }
+   .human_list ul li strong{
+	    font-size: 22px;
+  		padding-right: 80px;
+	}
+	
+	/* 인재채용 - 인재영입 */	
+	.hire_info_wrap .section > div > h2, .hire_info_wrap .section_02 #hire_2_box > p, .hire_info_wrap .section.section_04 #hire_4_box > p{text-align: center;}
+	.hire_info_wrap .section_02 #hire_2_box .system_list li p{position: static; transform:none; padding: 33px 0;}
+	.system_list li{width: 100%; display: block; margin-bottom: 15px;}
+	.hire_info_wrap .section_02 #hire_2_box .system_list li > div{height: auto; margin-bottom: 30px;}
+	.hire_info_wrap .section_02 #hire_2_box .system_list li > div:last-child{margin-bottom: 0;}
+	.hire_info_wrap .section > div#hire_3_box > h2{margin-bottom: 20px;}
+	.hire_info_wrap .section > div#hire_3_box .hire_system_process p{margin-top: 20px; text-align: left;}
+	.hire_info_wrap .section > div#hire_3_box .hire_system_process p em{display: block; line-height: 20px;}
+	.hire_system_process .process_list{display: none;}
+	.process_list_mo{display: block;}
+	.hire_info_wrap .section > div#hire_3_box .hire_system_box{display: none;}
+	.hire_info_wrap .section > div#hire_3_box .hire_system_box.mo {display: block;}
+	#hire_3_box button.step01-btn{margin-top: 15px;}
+	.hire_info .break{display: block;}
+	.hire_info_wrap .section > div#hire_3_box .hire_system_process h3{font-size: 23px;}
+	#hire_3_box button.step01-btn{font-size: 20px;}
+	.hire_info_wrap .section.section_04 #hire_4_box .education_system_list li{width: 100%;}
+	.hire_info_wrap .section.section_04 #hire_4_box .education_system_list li:not(:last-child){margin-bottom: 25px;}
+	.hire_info_wrap .section.section_04 #hire_4_box .education_system_list li:not(:first-child){margin-left: 0;}	
+	.hire_info_wrap .section.section_04 #hire_4_box .education_system_list li:nth-child(2)::after, .hire_info_wrap .section.section_04 #hire_4_box .education_system_list li:nth-child(2)::before, .hire_info_wrap .section.section_04 #hire_4_box .education_system_list li:nth-child(4)::after, 
+	.hire_info_wrap .section.section_04 #hire_4_box .education_system_list li:nth-child(4)::before{right: auto; left: 50%; bottom: -22px; top: auto;
+	transform: translate(-50%, 0); -webkit-transform: translate(-50%, 0); -moz-transform: translate(-50%, 0);	-ms-transform:translate(-50%, 0);	-o-transform: translate(-50%, 0); }
+	.hire_info_wrap .section.section_04 #hire_4_box .education_system_list li:nth-child(2)::before, 
+	.hire_info_wrap .section.section_04 #hire_4_box .education_system_list li:nth-child(4)::before {right: auto;left: 50%;transform: translateX(-50%); 
+	-webkit-transform: translateX(-50%); -moz-transform: translateX(-50%);	-ms-transform:translateX(-50%);	-o-transform: translateX(-50%);	top: -22px;}
+	.education_system_list, .education_system_list_bottom{display: none;}
+	.education_system_list.mo, .education_system_list_bottom.mo{display: block;}
+	.education_system_arrow{width: 60px; height: 60px; position: relative;}
+	.education_system_arrow img{position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%);	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);-o-transform: translate(-50%, -50%);transform: translate(-50%, -50%); width: 13px;}
+	.education_system_list_bottom li, .education_system_list_bottom.mo > div > div{width: 32.5%;}
+	
+	
+	
+	
+	
+	/* 모바일용 추가 */
+	 .hire_1_contBox_mo .hire_list li .circle_box {
+        width: 94px;
+        height: 94px;
+    }
+
+    .hire_1_contBox_mo .hire_list li .circle_box span img {
+        width: 30px;
+    }
+
+    .hire_1_contBox_mo .hire_list li p,  .hire_txtCircle span{
+        font-size: 13px;
+    }
+    .hire_1_contBox_mo .circle {
+        height: 489px;
+        margin: 22px 0;
+        padding: 60px 0;
+    }
+
+    .hire_1_contBox_mo .hire_list li p {
+        line-height: 16px;
+    }
+
+    .hire_1_contBox_mo .circle_1 {
+        width: 125px;
+    }
+    .hire_1_contBox_mo .circle_2 {
+        width: 197px;
+    }
+    .hire_1_contBox_mo .circle_3 {
+        width: 258px;
+    }
+    .hire_1_contBox_mo .hire_txtCircle{
+        width: 93.5px;
+    }
+    .hire_1_contBox_mo .circle_1 > img {
+        width: 48px;
+    }
+
+    .hire_info .section_01.on .hire_1_contBox_mo .hire_txtCircle.hire_txtCircle_1{top: 25%;}
+    .hire_info .section_01.on .hire_1_contBox_mo .hire_txtCircle.hire_txtCircle_2{top: 75%;}
+    .hire_info .section_01.on .hire_1_contBox_mo .hire_txtCircle.hire_txtCircle_2::after {
+	    height: 60px;
+	}
+	.hire_1_contBox_mo .hire_list li .circle_box em{font-size: 13px;}
+	.human_list ul li::after{
+		bottom:auto !important;
+		top:0 !important;
+	}
+}
+
+
+@media all and (max-width:600px) {
+	/* 인재영입 */
+	.education_system_list_bottom{padding: 0;}
+	
+}
+
+@media all and (max-width:520px) {
+	.hire_info .section_01 .hire_list_top li p {
+        padding: 0 5px;
+        min-height: 35px;
+    }
+    .hire_1_contBox_mo .hire_list li p{
+        padding: 0 5px;
+        min-height: 35px;
+    }
+
+    .hire_1_contBox_mo .hire_list li p br{display: none !important;}
+}
+
+
+
+@media all and (max-width:500px) { 
+	/* 인재채용 - 복리후생 */
+   .human_list ul li {
+	    width:100%;
+	    margin:0 0 15px !important;
+	    min-height: 200px;
+	    height: 200px;
+	}
+	.human_list ul li:nth-child(3n) {
+	    margin-right: 0 !important;
+	}
+	
+	
+	/* 인재채용 - 인재영입 */
+	.education_system_list_bottom.mo > div{font-size: 0; width: 100%;}
+	.education_system_list_bottom.mo > div > div{width: 44.333%;}
+	.education_system_list_bottom.mo > div:not(:last-child) > div{margin-bottom: 8.333%;}
+	.education_system_list_bottom li:not(:last-child), .education_system_list_bottom.mo > div > div:not(:last-child){margin-right: 8.333%;}
+	.education_system_list_bottom.mo > div.edu_list_bottom > div:last-child::after{right: 98%;}
+	.education_system_list_bottom.mo > div.edu_list_bottom > div:first-child::after{bottom: 109%;}
+	.process_list_mo > div{padding: 0 9%; font-size: 0; width: 100%;}
+	.process_list_mo > div > div{width: 43.25%;}
+	.process_list_mo > div.pro-mo-top > div:not(:nth-child(2)), .process_list_mo > div.pro-mo-bottom > div:not(:nth-child(2)){margin-right: 13.5%;}
+	.process_list_mo > div > div::after{width: 20%; right: -25%; background-size: 100%;}
+	.process_list_mo .pro-mo-top {margin-bottom: 13.5%;}
+	.process_list_mo > div.pro-mo-top > div:last-child::after{bottom: -25%;}
+	.hire_info_wrap .section > div#hire_3_box .hire_system_process {padding: 40px 17px 45px 17px;}
+	.hire_info_wrap .section.section_04 #hire_4_box .education_system_list li{height: 38px; line-height: 38px; font-size: 13px;}
+	#hire_3_box button.step01-btn span {width: 35px; height: 35px; margin-left: 10px;}
+	#hire_3_box button.step01-btn span::after, #hire_3_box button.step01-btn span::before{width: 18px; height: 6.5px; background-size: 18px;}
+	#hire_3_box button.step01-btn{height: 60px; line-height: 65px; font-size: 19px;}
+	
+	
+	/* 인재영입 */		
+	.hire_list_top{position: relative;}
+	.hire_info .section_01 .hire_list_top.top::after{    
+		content: '';
+	    display: block;
+	    position: absolute;
+	    bottom: -41px;
+	    left: 49.5%;
+	    transform: translateX(-50%);
+	    background-color: rgb(194, 194, 194);
+	    width: 0%;
+	    height: 1px;
+    }
+
+	.hire_info .section_01 .hire_list_top li p{padding: 0 5px; min-height: 35px;}
+	
+		
+	
+	.hire_info .section_01.on .hire_list_top.top::after{animation: line-ani-6 0.3s 1s forwards alternate;}
+	.hire_info .section_01 .hire_list_top.bottom::after{    
+		content: '';
+	    display: block;
+	    position: absolute;
+	    top: -41px;
+	    left: 50%;
+	    transform: translateX(-50%);
+	    background-color: rgb(194, 194, 194);
+	    width: 0%;
+	    height: 1px;
+    }
+    .hire_info .section_01.on .hire_list_top.bottom::after{animation: line-ani-7 0.3s 1s forwards alternate;}
+    
+    @keyframes line-ani-3{
+		0%{height: 0;}
+		100%{height: 76px;}	
+	}
+	
+	 @keyframes line-ani-4{
+		0%{height: 0;}
+		100%{height: 67px;}	
+	}
+	
+    .education_system_list_bottom li:not(:last-child)::after, .education_system_list_bottom.mo > div > div::after {
+	    width: 22%;
+	}
+    
+    .hire_info .section_01 .hire_list_top li p > br{display: none;}
+    .hire_info .section_01 .hire_list_top.top::after{left: 50%;}
+    @keyframes line-ani-6{
+		0%{width: 0;}
+		100%{width: 68.5%;}	
+	}
+    
+}
+
+
+@media all and (max-width:445px) { 
+	/* 인재영입 */
+	
+	
+	/* 모바일용 추가 css */
+	.hire_1_contBox_mo .circle{
+        height: 450px;
+        padding: 0;
+    }
+
+    .hire_info .section_01.on .hire_1_contBox_mo .hire_txtCircle.hire_txtCircle_1::after {
+        height: 75px;
+    }
+
+    .hire_info .section_01.on .hire_1_contBox_mo .hire_txtCircle.hire_txtCircle_2::after {
+        height: 52px;
+    }
+	
+	
+}
+
+
+@media all and (max-width:430px) { 
+	.hire_info .section_01 .hire_list_top li p{min-height:65px;}
+	.hire_info .break{display: none;}
+	
+	/* 모바일용 추가 css */
+	.hire_1_contBox_mo .hire_list li p{
+        min-height: 65px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

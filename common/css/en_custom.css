@@ -1,0 +1,75 @@
+/* 전체 */
+*{
+	font-family: 'Catamaran';
+	letter-spacing:0 !important;
+}
+
+/* header */
+.nav ul li a span {font-size: 13px; letter-spacing: 0;}
+.nav ul li:nth-child(2)::after {content: ''; width: 16px; height: 1px; background: #fff; opacity: 0.7; position: absolute; left: 50%; bottom: 0; margin-left: -8px; margin-bottom: -15px;}
+.nav ul li:nth-child(3) {margin-top: 50px;}
+.nav ul li:nth-child(3)::after {display: none;}
+.nav ul li:nth-child(4) {
+/* 	margin-top: 20px; */
+}
+
+/* footer */
+.footer .links .txt_fild {padding-right: 5%;}
+.footer .links .link_fild {padding-left: 5%;}
+
+/* contact */
+.write_set .flex_table ul li > strong em {
+	line-height: 1.4;
+}
+.write_set .flex_table ul li.right strong {
+    text-align: left;
+    padding-left: 2.8%;
+}
+.company_contact .select_contact ul li h3 {
+    line-height: 1.3;
+}
+.company_contact .select_contact ul li p strong {
+    line-height: 1.4;
+}
+.comapny_inner dl dt, .comapny_inner dl dd{
+	vertical-align:top;
+}
+
+/* status */
+.body-status .pro_nm p {letter-spacing: -0.02em !important;}
+
+/* quality */
+.quality_sec3 .mo_subject .subject_txt {width: 195px; height: auto; padding: 30px 10px 30px 20px;}
+
+/*반응형*/
+
+@media all and (max-width:1480px) {
+	/* contact */
+	.write_set .flex_table ul li.right strong {
+		padding-left: 0;
+	}
+	.write_set .flex_table ul li > strong em {
+		line-height: 24px;
+	}
+	.write_set .flex_table ul li > strong br {
+		display: none;
+	}
+	.write_set .flex_table ul li .files .file_txt {
+		display: block;
+	}
+	.write_set .flex_table ul li .files .file_info {
+		margin-left: 0;
+	}
+}
+
+
+@media all and (max-width:989px) {
+	
+}
+@media all and (max-width:500px) {
+	/* 메인 */
+	.main_section03 ul.text li strong br{
+		display:none;	
+	}
+		
+}

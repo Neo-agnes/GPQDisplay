@@ -1,0 +1,1099 @@
+﻿@media all and (max-width:1780px) { 
+}
+@media all and (max-width:1600px) { 
+ 	/* 제품공통 */
+ 	.sub_selction .tit_area h2, 
+ 	.sub_selction .local_sec01 .tit_area h3, .sub_selction .local_sec03 .tit_area h3{
+ 		font-size:55px;
+ 	}
+ 	.sub_selction .local_sec03 .tit_area li{
+ 		font-size:13px;
+ 		text-align: left;
+ 		color: #7e7e7e;
+ 		font-weight: 500;
+ 	}
+ 	/* 마이크로 LED */
+ 	.sub_selction .led_section02 .tit_area ul{
+ 		margin-left:120px;
+ 	}
+ 	.sub_selction .led_section04 .tit_area p, .sub_selction .led_section05 .tit_area p, .tech-graph .line .txt, .tech-graph .graph-text span{
+ 		font-size:16px;
+ 	}
+ 	.sub_selction .led_section02 .cont .txt-bt strong{
+ 		font-size:20px;
+ 	}
+ 	.sub_selction .led_section02 .cont .txt-bt span{
+ 		font-size:19px;
+ 	}
+ 	.sub_selction .led_section02 .cont .txt-bt{
+ 		bottom:23%;
+ 	}
+ 	.tech-graph .graph-text .text01 .deco-line{
+ 		width:4.3vw;
+ 	}
+ 	.tech-graph .graph-text .text01 .line-left{
+ 		right:8vw;
+ 	}
+ 	.tech-graph .graph-text .text01 .line-right{
+ 		left:8vw;
+ 	}
+ 	.tech-graph .graph-text .text01 .line-left:after, .tech-graph .graph-text .text01 .line-right:after{
+ 		height:22px;
+ 	}
+ 	.mode-box h3{
+ 		font-size:21px;
+ 		height:52px;
+ 		line-height:52px;
+ 	}
+ 	.mode-wrap{
+ 		max-width:1150px;
+ 	}
+ 	.mode-box .txt-overlay .txt01:after{
+ 		width:151px;
+ 	}
+ 	.mode-box .txt-overlay .txt02:after{
+ 		width:93px;
+ 	}
+ 	/* Local Dimming */
+ 	.hdr-bg-copy h3{
+ 		font-size:80px;
+ 	}
+ 	.sub_selction .local_sec03 .tit_area h3{
+ 		margin-top:30px;
+ 	}
+ 	.sub_selction .local_sec03 .tit_area ul{
+ 		margin-top:45px;
+ 	}
+ 	.ic-sec01 .cont{
+ 		padding-right:7.7vw;
+ 	}
+}
+ 
+@media all and (max-width:1480px) {
+	/* 마이크로 LED */
+	.prod-section{
+		padding:120px 50px;
+	}
+	.sub_selction .led_section03{
+		padding-bottom:120px !important;
+	}
+	.sub_selction .led_section02 .cont ul:before, .sub_selction .led_section02 .cont ul:after,
+	.sub_selction .panel_bot ul li.pa03:before, .sub_selction .panel_bot ul li.pa03:after{
+		width:55px; height:55px;
+		margin:-28px 0 0 -28px;
+	}
+	.sub_selction .led_section02 .cont ul:after{
+		background-size:24px;
+	}
+	.sub_selction .led_section02 .cont ul li{
+		padding-top:115px;
+	}
+	.sub_selction .led_section02 .cont .txt-bt{
+		bottom:20%;
+	}
+	.sub_selction .led_section02 .cont .txt-bt strong{
+		font-size:19px;
+		padding:7px 0;
+	}
+	.sub_selction .led_section02 .cont .txt-bt span{
+		font-size:18px;
+	}
+	.sub_selction .led_section04{
+		padding-bottom:80px;
+	}
+	.sub_selction .led_section04 .tit_area p{
+		padding-left:50px;
+	}
+	.sub_selction .led_section04 .cont{
+		margin-top:45px;
+	}
+	.tech-graph .line03 .arrow-top{
+		border-width:45px 52px;
+	}
+	.mode-wrap {
+	    max-width: 1060px;
+	}
+	.mode-box .txt-overlay .txt01:after{
+		width:130px;
+	}
+	.mode-box .txt-overlay .txt02:after {
+	    width: 77px;
+	}
+	.tech-graph .graph-text .text01 .line-left {
+	    right: 8.8vw;
+	}
+	.tech-graph .graph-text .text01 .line-right {
+	    left: 8.8vw;
+	}
+	.tech-graph .graph-text .text01 .line-left:after, .tech-graph .graph-text .text01 .line-right:after {
+	    height: 17px;
+	}
+	/* Local Dimming */
+	.sub_selction .local_sec01{
+		padding-top:120px;
+	}
+	.sub_selction .tit_area .dpd{
+		font-size:24px;
+		line-height:54px;
+		width:345px; height:54px;
+		margin-top:50px;
+	}
+	.sub_selction .panel_top{
+	    margin: 40px 12vw 0;
+	}
+	.sub_selction .panel_arrow{
+		margin:-6.5% 12vw 0
+	}
+	.sub_selction .panel_bot ul{
+		margin-left:12vw;
+	}
+	.hdr-bg-copy h3 {
+	    font-size: 65px;
+	}
+	.sub_selction .local_sec03 .tit_area h3 {
+	    margin-top: 25px;
+	}
+	.sub_selction .local_sec03 .tit_area ul {
+	    margin-top: 28px;
+	}
+	
+	.sub_selction .tit_area p, 
+	.sub_selction .led_section02 .tit_area ul li{
+		font-size:18px;	
+	}
+	.sub_selction .led_section04 .tit_area p, 
+	.sub_selction .led_section05 .tit_area p{
+		font-size:16px;	
+	}
+	
+	/*
+		tcon
+	*/
+	.icbox{
+		padding:50px 30px;
+	}
+	
+}
+ 
+ 
+@media all and (max-width:1280px) { 
+	/* 마이크로 LED */
+	.sub_selction .tit_area h2 {
+	    font-size: 48px;
+	}
+	.sub_selction .led_section02 .tit_area ul{
+		margin-left:80px;
+	}
+	
+	.sub_selction .tit_area p, 
+	.sub_selction .led_section02 .tit_area ul li{
+		font-size:16px;	
+	}
+	.sub_selction .led_section04 .tit_area p, 
+	.sub_selction .led_section05 .tit_area p{
+		font-size:14px;	
+	}
+	.sub_selction .led_section02 .tit_area ul li + li{
+		margin-top:3px;
+	}
+	.sub_selction .led_section02 .cont ul li{
+		padding-top:85px;
+	}
+	.active .led_section02 .no01 .txt-overlay .box:after{
+		width:45%;
+	}
+	.led_section02 .no01 .txt-overlay .box01:after{
+		margin-right:-45%;
+	}
+	.led_section02 .no01 .txt-overlay .box02:after{
+		margin-left:-45%;
+	}
+	.sub_selction .led_section02 .cont .txt-bt {
+	    bottom: 18%;
+	}
+	.sub_selction .led_section02 .cont .txt-bt strong {
+	    font-size: 17px;
+	    padding: 6px 0;
+	}
+	.sub_selction .led_section02 .cont .txt-bt span {
+	    font-size: 16px;
+	}
+	.sub_selction .led_section04{
+		padding-bottom:60px;
+	}
+	.sub_selction .led_section04 .tit_area p, .sub_selction .led_section05 .tit_area p, .tech-graph .line .txt, .tech-graph .graph-text span {
+	    font-size: 14px;
+	}
+	.sub_selction .led_section04 .cont{
+		margin-top:35px;
+	}
+	.tech-graph .graph-text span{
+		bottom:5%;
+		height:29px;
+		line-height:30px;
+		min-width:70px;
+	}
+	.tech-graph .line03 .arrow-top {
+	    border-width: 32px 45px;
+	}
+	.tech-graph .graph-text .text01 .deco-line{
+		width:2.8vw;
+	}
+	.tech-graph .graph-text .text01 .line-left {
+	    right: 10vw;
+	}
+	.tech-graph .graph-text .text01 .line-right{
+	    left: 10vw;
+	}
+	.mode-wrap {
+	    max-width: 850px;
+	}
+	.mode-box h3 {
+	    font-size: 17px;
+	    height: 42px;
+	    line-height: 42px;
+	}
+	.mode-box .txt-overlay li, .mode-box .txt-overlay span{
+		font-size:13px;
+	}
+	.mode-box .txt-overlay span:after{
+		left:88px;
+	}
+	.mode-box .txt-overlay .txt01:after {
+	    width: 98px;
+	}
+	.mode-box .txt-overlay .txt02:after {
+	    width: 55px;
+	}	
+	.line-graph .dot03 span{
+		font-size:25px;
+	}
+	.led-module-container dt{
+		font-size:28px;
+	}
+	.sub_selction .led_section02{
+		min-height:1px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	/* Local Dimming */
+	.sub_selction .tit_area .dpd {
+	    font-size: 22px;
+	    line-height: 50px;
+	    width: 330px;
+	    height: 50px;
+	    margin-top: 30px;
+	}
+	.sub_selction .panel_top {
+	    margin: 32px 9vw 0;
+	}
+	.sub_selction .panel_arrow {
+	    margin: -7.5% 9vw 0;
+	}
+	.sub_selction .panel_top div span{
+		font-size:20px;
+	}
+	.sub_selction .panel_arrow{
+		height:120px;
+	}
+	.sub_selction .panel_arrow span{
+		width:12px;
+		margin-left:-6px;
+	}
+	.sub_selction .panel_arrow .arr01{
+		left:25%;
+	}
+	.sub_selction .active .panel_arrow .arr01{
+		height:120px;
+	}
+	.sub_selction .active .panel_arrow .arr02{
+		height:170px;
+	}
+	.sub_selction .active .panel_arrow .arr03{
+		height:220px;
+	}
+	.sub_selction .panel_bot ul{
+		height:430px;
+		margin-left:9vw;
+	}
+	.sub_selction .panel_bot strong{
+		font-size:17px;
+		margin-top:-0.8em;
+	}
+	.sub_selction .local_sec03{
+		padding:70px 0 155px;
+	}
+	.sub_selction .local_sec03 .tit_area .icon{
+		width:78px; height:78px;
+	}
+	.sub_selction .local_sec03 .tit_area .icon span{
+		height:78px;
+	}
+	.sub_selction .local_sec03 .tit_area .icon img{
+		width:42px;
+	}
+	.sub_selction .local_sec03 .tit_area h3 {
+	    margin-top: 22px;
+	}
+	
+	/*
+		tcon
+	*/
+	.ic-tit{
+		font-size:32px;
+	}
+	.ic-sp{
+		font-size:18px;
+	}
+	.ic-txtwr > div{
+		font-size:14px;
+	}
+	.sub_selction .tcon-sec02{
+		padding:70px 50px 155px;
+	}
+}
+/* *** 모바일 시안대로 전환 *** */
+@media only screen and (max-width:1024px){
+   .pc_view {display:none !important;}
+   .mo_view {display:block;}
+   br.mo_view {display:inline;}
+	/* 제품 공통 */
+	.sub_selction .led_section02 .tit_area h2, .sub_selction .led_section03 .tit_area h2, .sub_selction .led_section04 .tit_area h2, .sub_selction .led_section05 .tit_area h2, 
+	.sub_selction .local_sec01 .tit_area h3, .sub_selction .local_sec03 .tit_area h3{
+		font-size:65px;
+	}
+	.sub_selction .local_sec01{
+		padding-top:185px;
+	}
+	/* Local Dimming */
+	.sub_selction .tit_area .dpd{
+	    font-size: 34px;
+	    width: 545px;
+	    height: 83px;
+	    line-height: 83px;
+	    margin-top: 60px;
+	    border-radius: 50px;
+	}
+	.sub_selction .panel_top {
+	    margin: 85px auto 0;
+	    padding: 0 30px;
+	    max-width: 750px;
+	}
+	.sub_selction .panel_top div.img01{
+		max-width:49.3%;
+	}
+	.sub_selction .panel_top div.img02{
+	    position: relative;
+	    left:0; top:0;
+    	margin: -49% 0 0 -5.8%;
+	    max-width: 71.8%;
+	}
+	.sub_selction .panel_top div.img03{
+	    position: relative;
+	    left:0; top:0;
+    	margin: -49% 0 0 15.3%;
+	    max-width: 67%;
+	}
+	.sub_selction .panel_top div.img04{
+	    position: relative;
+	    left:0; top:0;
+    	margin: -52.5% 0 0 15%;
+	    max-width: 78%;
+	}
+	.sub_selction .panel_top div span{
+		font-size:24px;
+		top:0; right:0; bottom:auto;
+	}
+	.sub_selction .panel_top div.img01 span{
+		padding-right:2.5%;
+	}
+	.sub_selction .panel_top div.img04 span{
+	    padding-right: 3.2%;
+	    margin-top: -1%;
+	}
+	.sub_selction .panel_bot ul {
+	    max-width: 750px;
+	    height: auto;
+	    margin: 0 auto;
+	    padding: 0 30px;
+	}
+	.sub_selction .panel_bot ul li{
+		position:relative;
+		max-width:65.5%;
+	}
+	.sub_selction .panel_bot ul li.pa01{
+		top:0; left:0;
+	    margin-left: 9%;
+	}
+	.sub_selction .active .panel_bot ul li.pa01, .sub_selction .active .panel_bot ul li.pa02, .sub_selction .active .panel_bot ul li.pa03, .sub_selction .active .panel_bot ul li.pa04{
+		top:0; left:0;
+	}
+	.sub_selction .panel_bot ul li.pa02{
+		top:0; left:0;
+	    margin: -25% 0 0 18%;
+	}
+	.sub_selction .panel_bot ul li.pa03{
+		top:0; left:0;
+	    margin: -25% 0 0 27%;
+	}
+	.sub_selction .panel_bot ul li.pa04{
+		top:0; left:0;
+		max-width:100%;
+		margin-top:63px;
+	}
+	.sub_selction .panel_bot strong{
+		font-size:24px;
+	    line-height: 1.14;
+	    transform: none;
+	    position: absolute;
+	    top: 5.5%;
+	    right: 0;
+	}
+	.sub_selction .panel_bot .pa01 strong{
+		top:-3%;
+	}
+	.sub_selction .panel_bot ul li strong.red{
+	    position: static;
+	    display: block;
+	    margin: 0.3em 0;
+	    text-align: center;
+	    font-size: 38px;
+	}
+	.sub_selction .local_sec01{
+		padding-bottom:140px;
+	}
+	.sub_selction .panel_bot ul li.pa03:before, .sub_selction .panel_bot ul li.pa03:after {
+	    display:none;
+	}
+	.sub_selction .panel_bot ul li.pa04:before, .sub_selction .panel_bot ul li.pa04:after {
+		content:'';
+		display:block;
+	    width: 120px;
+	    height: 120px;
+	    border-radius:50%;
+	    box-sizing:border-box;
+	}
+	.sub_selction .panel_bot ul li.pa04:before{
+		margin:0 auto 70px;
+	    box-shadow: 0px 7px 31.2px 3.9px rgb(0 0 0 / 3%);
+	    background: #fff url(../../images/product/icon_local_arrow_m.png) center no-repeat;
+	    background-size: 26px;
+	}
+	.sub_selction .panel_bot ul li.pa04:after{
+		position:absolute;
+		top:0; left:50%;
+		margin:0 0 0 -60px;
+   		box-shadow: 0px 0px 10px 2px rgba(214, 24, 24, 0.8);
+	    border: 1px solid #d61818;
+	    z-index: 2;
+	}
+	.hdr-bg-copy h3 {
+	    font-size: 82px;
+	    white-space: nowrap;
+	    line-height: 1.1;
+	}
+	.sub_selction .panel_arrow {
+	    margin: -8.5% auto 0;
+	    height: 4.8vw;
+	    max-width: 750px;
+	}
+	.sub_selction .panel_arrow span{
+		width:26px;
+		margin-left:-13px;
+	}
+	.sub_selction .panel_arrow img{
+		width:100%;
+	}
+	.sub_selction .panel_arrow .arr01 {
+	    left: 15%;
+	    top: -27.5vw;
+	}
+	.sub_selction .panel_arrow .arr02 {
+	    left: 27%;
+	    top: -13.5vw;
+	}
+	.sub_selction .panel_arrow .arr03 {
+	    left: 39.6%;
+	    top: -19vw;
+	}
+	.sub_selction .active .panel_arrow .arr01 {
+	    height: 31vw;
+	}
+	.sub_selction .active .panel_arrow .arr02 {
+	    height: 33vw;
+	}
+	.sub_selction .active .panel_arrow .arr03 {
+	    height: 54.4vw;
+	}
+	.float-txt{
+		width:105px;
+		top:12%; left:30%;
+	    -o-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	    -moz-transform: translate(-50%, -50%);
+	    -webkit-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+	    opacity:1;
+	}
+	.hdr-bg-copy.fixed, .sub_selction .local_sec02{
+		padding-top:133.333%;
+	}
+	.sub_selction .local_sec03 .tit_area .icon {
+	    width: 174px;
+	    height: 174px;
+	}
+	.sub_selction .local_sec03 .tit_area .icon span{
+		height:174px;
+	}
+	.sub_selction .local_sec03 .tit_area .icon img {
+	    width: 101px;
+	}
+	.sub_selction .local_sec03 .tit_area h3 {
+	    margin-top: 12px;
+	}
+	.sub_selction .local_sec03 .tit_area li{
+		font-size:26px;
+		line-height:1.4;
+	}
+	.tech-graph .graph-text .text01{
+		left:43.5%;
+	}
+	.tech-graph .line02 {
+	    left: 50.2%;
+	}
+	.tech-graph .line01 {
+	    left: 31.7%;
+	}
+	.tech-graph .line03 {
+	    left: 69.6%;
+	}
+	.tech-graph .graph-text .text02 {
+    	left: 72.6%;
+	}
+	.hdr-bg-copy svg{
+	    height: auto;
+	    min-height: 100%;
+	    top: 50%;
+	    -o-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	    -moz-transform: translateY(-50%);
+	    -webkit-transform: translateY(-50%);
+	    transform: translateY(-50%);
+	}
+	
+	
+	/*
+		tcon
+	*/
+	.ic-tit{
+		font-size:26px;
+	}
+	.ic-sp{
+		font-size:16px;
+	}
+	.ic-txtwr > div{
+		font-size:14px;
+	}
+	.icbox-wr{
+		display:block;
+	}
+	.icbox{
+		width:100%;
+	}
+	.icbox + .icbox{
+		margin-top:20px;
+	}
+	.sub_selction .ic-sec01 .tit_area{
+		margin-bottom:40px;
+	}
+	.ic-sec01 .cont{
+		padding-right:0;
+	}
+	.sub_selction .tcon-sec01 .tit_area {
+	    margin-bottom: 70px;
+	}
+}
+ 
+ 
+@media only screen and (max-width:989px){
+	.sub_selction .tit_area h2{
+		font-size:30px;
+	}
+	.sub_selction .tit_area p, 
+	.sub_selction .led_section02 .tit_area ul li{
+		font-size:13px;	
+	}
+	.sub_selction .led_section04 .tit_area p, 
+	.sub_selction .led_section05 .tit_area p{
+		font-size:13px;	
+	}
+	.prod-section {
+	    padding:90px 15px;
+	}	
+	.sub_selction .tcon-sec02{
+		padding:90px 15px 120px;
+	}
+	
+	.sub_selction .led_section03{
+		padding-bottom:90px !important;
+	}
+	.solution-box > div{
+		display:Table-cell;
+	}
+	.sub_selction .led_section02 .tit_area{
+		display:block;
+	}
+	.sub_selction .led_section02 .tit_area ul{
+		margin:0 auto;
+	}
+	.sub_selction .led_section02 .tit_area, 
+	.sub_selction .led_section04 .tit_area{
+		text-align:center;	
+	}
+	.sub_selction .led_section02 .tit_area ul {
+		margin-top:20px;
+	}
+	.sub_selction .tit_area p + p {
+	    margin-top: 5px;
+	}
+	.sub_selction .led_section03 .imgs{
+	    margin: 35px auto 0;
+	    max-width:60%;
+	}	
+	.mode-wrap > div{
+	    max-width: 500px;
+	    margin: 0 auto;
+    	width: 100%;
+	}
+	.sub_selction .led_section02 .cont ul li{
+		display:block;
+		width:100% !important;
+		max-width:500px;
+		margin: 0 auto;
+	}
+	.mode-box.box02{
+		margin-top:-5%;
+	}
+	.sub_selction .led_section02 .cont .no01{
+		padding-right:0;
+	}
+	.sub_selction .led_section02 .cont .no02{
+		padding-top: 40px ;
+		padding-left:0;
+	}
+	.sub_selction .led_section04 .cont{
+		padding:0;
+	}
+	.sub_selction .led_section04 .tit_area p{
+		padding-left:0;
+	}
+	.led-graph .graph-text{
+		font-size:12px;
+	}
+	.led-graph .graph-text span{
+		border-radius:15px;
+	}
+	.led-graph .graph-text span br{
+		display:none;
+	}
+	.line-graph .dot span{
+		font-size:11px;
+	}
+	.line-graph .dot03 span{
+		font-size:16px;
+		top:-15px;
+	}
+	.led-graphwr{
+		padding:0 0 10%;
+		background:#000;
+	}
+	.led-graph .graph-text span{
+		width:100px;
+		padding:5px 10px;
+   		bottom: -15%;
+	}
+	.line-graph .dot:before{
+	    width: 6px;
+	    height: 6px;
+	    margin: -3px 0 0 -3px;
+	
+	}
+	.line-graph .dot:after{
+	    width: 18px;
+	    height: 18px;
+	    margin: -9px 0 0 -9px;	
+	}
+	.line-graph .dot03:before {
+	    width: 10px;
+	    height: 10px;
+	    margin: -5px 0 0 -5px;
+	}
+	.line-graph .dot03:after {
+	    width: 30px;
+	    height: 30px;
+	    margin: -15px 0 0 -15px;
+	}
+	.sub_selction .led_section02 .cont ul:after{
+		transform:rotate(90deg);
+		-webkit-transform:rotate(90deg);
+		right:50%;
+		top:44%;
+	    margin-right: -30px;
+	    margin-top: -30px;
+	    width: 60px;
+	    height: 60px;
+	
+	}
+	.mode-box .txt-overlay li, .mode-box .txt-overlay span {
+	    font-size: 11px;
+	}
+	.prod{
+		overflow-y:Scroll !important;
+	}
+	.led_section01{
+		height:auto;
+	}
+	.solution-wr, .solution-box{
+	    position: static;
+	    height: auto;
+	    top: 0 !important;
+	    transform: scale(1) translateY(0%) !important;
+	}
+	.solution-box{
+		margin-top:15px;
+	}
+	.solution-box.box-tit{
+		margin:0 0 30px;
+	}
+	/* Local Dimming */
+	.sub_selction .local_sec02{
+		padding-bottom:0;
+	}
+	.tech-graph .graph-text .text01, .tech-graph .graph-text .text02{
+	    font-size: 10px;
+	}
+	.tech-graph .graph-text .text01 .line-left {
+	    right: 15vw;
+	}
+	.tech-graph .graph-text .text01 .deco-line {
+	    width: 1.8vw;
+	}
+	.tech-graph .graph-text .text01 .line-right {
+	    left: 15vw;
+	}
+	.tech-graph .graph-text .text01 {
+	    left: 44%;
+	}
+	.tech-graph .graph-text .text02{
+	    line-height: 20px;
+	    height: 20px;
+	}
+	.sub_selction .panel_arrow .arr01 {
+	    top: -38vw;
+	}
+	.sub_selction .panel_arrow .arr02 {
+	    top: -19.5vw;
+	}
+	.sub_selction .panel_arrow .arr03 {
+	    top: -9.8vw;
+	}
+	.sub_selction .active .panel_arrow .arr01 {
+	    height: 40vw;
+	}
+	.sub_selction .active .panel_arrow .arr02 {
+	    height: 43.3vw;
+	}
+	.led_section05wr{
+		padding-bottom:0;
+	}
+	.led-graph .graph-text .text02{
+		bottom:-12%;
+	}
+	.sub_selction .local_sec03 .tit_area li{
+		font-size:22px;
+	}
+}
+ 
+/* 모바일 */
+@media only screen and (max-width:767px){
+   .prod .sub_visual .inner_box{
+   		height:365px;
+   }
+   .prod .sub_visual .txt_fild h2{
+   		font-size:40px;
+   }
+	.led-module-container > div{
+		width:100%;
+		padding:40px 15px;
+	}
+	.led-module-container{
+		display:block;
+	
+	}
+	.led-module-container .left:after{
+		transform:rotate(90deg);
+		-webkit-transform:rotate(90deg);
+		right:50%;
+		top:100%;
+	    margin-right: -30px;
+	    margin-top: -30px;
+	    width: 60px;
+	    height: 60px;
+	}
+	.sub_selction .local_sec01{
+		padding-top:90px;
+	}
+	.sub_selction .local_sec03 .tit_area .icon{
+		display: inline-block;
+		margin-right: 10px;
+		vertical-align: middle;
+	}
+	.sub_selction .local_sec03 .tit_area .icon span{
+		height:78px;
+	}
+	.sub_selction .local_sec03 .tit_area .icon img{
+		width:87px;
+	}
+	.sub_selction .local_sec03 .tit_area h3 {
+	    display: inline-block;
+	    vertical-align: middle;
+	}
+	.sub_selction .local_sec03 .tit_area {
+		text-align: left;
+	}
+	.sub_selction .led_section02 .tit_area h2, .sub_selction .led_section03 .tit_area h2, .sub_selction .led_section04 .tit_area h2, .sub_selction .led_section05 .tit_area h2, 
+	.sub_selction .local_sec01 .tit_area h3, .sub_selction .local_sec03 .tit_area h3{
+		font-size:32px;
+	}
+	.sub_selction .local_sec01{
+		padding-bottom:70px;
+	}
+	.sub_selction .tit_area .dpd {
+	    font-size: 17px;
+	    width: 272px;
+	    height: 41px;
+	    line-height: 41px;
+	    margin-top: 30px;
+	}
+	.sub_selction .panel_top{
+		margin-top:42px;
+		padding:0 15px;
+	}
+	.sub_selction .panel_top div span, .sub_selction .panel_bot strong{
+		font-size:12px;
+	}
+	.sub_selction .panel_bot ul{
+		padding:0 15px;
+	}
+	.sub_selction .panel_bot ul li.pa04{
+		margin-top:31px;
+	}
+	.sub_selction .panel_bot ul li.pa04:before, .sub_selction .panel_bot ul li.pa04:after{
+		width:60px; height:60px;
+	}
+	.sub_selction .panel_bot ul li.pa04:before{
+		background-size:13px;
+		margin-bottom:35px;
+	}
+	.sub_selction .panel_bot ul li.pa04:after{
+		margin-left:-30px;
+	}
+	.sub_selction .panel_bot ul li strong.red{
+		font-size:19px;
+	}
+	.hdr-bg-copy h3{
+		font-size:41px;
+	}
+	.sub_selction .local_sec03 .tit_area .icon{
+		width:87px; height:87px;
+	}
+	.sub_selction .local_sec03 .tit_area .icon span{
+		height:87px;
+	}
+	.sub_selction .local_sec03 .tit_area .icon img{
+		width:50px;
+	}
+	.sub_selction .local_sec03 .tit_area h3{
+		margin-top:6px;
+	}
+	.sub_selction .local_sec03 .tit_area ul {
+	    margin-top: 19px;
+	}
+	.sub_selction .local_sec03 .tit_area li{
+		font-size:13px;
+		min-height:auto;
+	}
+	.sub_selction .local_sec03 {
+	    padding: 35px 15px 80px;
+	}
+	.led-module-container dt{
+		font-size:18px;
+	}
+	 .led-module-container .txt{
+		font-size:11px;
+	}
+	.led-module-container dd strong{
+		font-size:17px;
+		margin:0 0 10px;
+	}
+	.led-module-container .img{
+		max-width:40%;
+		margin:0 auto;
+	}
+	.led-module-container .right .txt{
+		color: rgba(255, 255, 255, 0.3);
+	}
+	.led-graph .graph-text{
+		font-size:10px;
+	}
+	.mode-box h3 {
+	    font-size: 17px;
+	    height: 42px;
+	    line-height: 42px;
+	    width: calc(100% + 13.1%);
+	    margin: 0 0 20px -13.1%;
+	}
+	.tech-graph .line{
+		width:12%;
+	}
+	.tech-graph .line .arrow-body, .tech-graph .line .txt, .tech-graph .line .arrow-top{
+		font-size:11px;
+	}
+
+	.tech-graph .line01 {
+	    left: 25%;
+	}
+	.tech-graph .line02 {
+	    left: 47.5%;
+	}
+	.tech-graph .line03 {
+	    left: 70%;
+	}
+	.tech-graph .graph-text .text02 {
+	    left: 75.6%;
+	}
+	.tech-graph .graph-text .text01 {
+	    left: 42%;
+	}
+	.tech-graph .line03 .arrow-top {
+	    border-width: 25px 35px;
+	}
+	.hdr-bg-copy .mo_view circle{
+		width:100%; height:100%;
+	}
+	.sub_selction .panel_arrow span{
+		width:13px;
+		margin-left:-7px;
+	}
+	.sub_selction .panel_arrow .arr01 {
+	    top: -35vw;
+	}
+	.sub_selction .panel_arrow .arr02 {
+	    top: -18vw;
+	}
+	.sub_selction .panel_arrow .arr03{
+		top:-9vw;
+	}
+	.sub_selction .active .panel_arrow .arr01 {
+	    height: 38vw;
+	}
+	.sub_selction .active .panel_arrow .arr02 {
+	    height: 41.5vw;
+	}
+	.sub_selction .active .panel_arrow .arr03 {
+	    height: 53vw;
+	}
+	.float-txt{
+		width:53px;
+		top:14%; left:32%;
+	}
+	.mode-box .txt-overlay span:after {
+	    left: 70px;
+	}
+	.mode-box .txt-overlay .txt02:after {
+	    width: 45px;
+	}
+	.mode-box .txt-overlay .txt01:after {
+	    width: 80px;
+	}
+	.mode-box .txt-overlay ul {
+	    left: -25%;
+	    top: 40%;
+	}
+	.mode-box .txt-overlay span {
+	    left: -24%;
+	}
+	.mode-box .txt-overlay li{
+		margin-bottom:10px;
+	}
+	.mode-box .txt-overlay .dot {
+	    margin: -2px 5px 0 0;
+	}
+	.mode-box{
+		padding-left:20%;
+	}
+	.mode-box .txt-overlay .txt01{
+/* 	    top: 17.8%;	 */
+	}
+	.mode-box .txt-overlay .txt02 {
+	    top: 30%;
+	}
+	.tech-graph .graph-text .text01 .deco-line {
+	    width: 10.6vw;
+	}
+	.tech-graph .graph-text .text01 .line-left {
+	    right: 9vw;
+	}
+	.tech-graph .graph-text .text01 .line-right {
+	    left: 9vw;
+	}
+	.tech-graph .graph-text .text01 .line-left:after, .tech-graph .graph-text .text01 .line-right:after{
+		height:5px;
+	}
+	.tech-graph .graph-text .text01 .deco-line{
+		bottom:80%;
+	}
+	.tech-graph .graph-text .text02 {
+	   	bottom:7%;
+	}
+	.led-module-container .right{
+	    background: #d61818 url(../../images/product/img_led_sec01_right_bg_mo.png) center no-repeat;
+	}
+	
+	/*
+		tcon
+	*/
+	.ic-tit{
+		font-size:22px;
+	}
+	.icbox{
+		padding:30px 15px;
+	}
+	.ic-txtwr > div + div {
+	    margin-top: 5px;
+	}
+	.ic-sp{
+		font-size:15px;
+	}
+	.ic-titwr {
+	    padding-bottom: 10px;
+	    margin-bottom: 10px;
+	}
+	.sub_selction .tcon-sec02 {
+	    padding: 35px 15px 80px;
+	}
+	.sub_selction .tcon-sec01 .tit_area {
+	    margin-bottom: 50px;
+	}
+}
+
+@media only screen and (max-width:500px){
+	.sub_selction .led_section03 .imgs {
+	    max-width: 100%;
+	}
+}

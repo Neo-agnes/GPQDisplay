@@ -1,6 +1,4 @@
-﻿/*
-	리셋
-*/
+﻿/* 리셋 */
 @import url('../../css2');
 @import url('../../css2-1');
 
@@ -134,7 +132,7 @@ textarea {resize: none;}
 /**/
 
 .logo {position: absolute; left:70px; top:67px; z-index:20;}
-.logo img {height:35px; }
+.logo img {height:80px; }
 
 .nav {position: fixed; right:0; top:0; height:100vh; width:6.7vw; z-index:20; text-align:center; max-width:130px;
 	-webkit-transition:0.3s;
@@ -217,7 +215,6 @@ textarea {resize: none;}
 .nav.white .bot .lang:before {border: solid 1px #000000; background-color: #ffffff;}
 
 .gnb {
-
     position: fixed;
     left: 60%;
     top: 0;
@@ -306,15 +303,8 @@ textarea {resize: none;}
 	display:none !important;
 }
 
-/*
-	푸터
-*/
+/* 푸터 */
 .footer {
-
-    /* position: sticky; */
-/*     position: -webkit-sticky; */
-    /* left: 0; */
-    /* bottom: 0; */
     position:Relative;
     width: 100%;
     overflow: hidden;
@@ -539,12 +529,7 @@ opacity:1;
 	vertical-align:middle;
 }
 
-
-
-
-/*
-	서브상단
-*/
+/* 서브상단 */
  .sub_content {
 	position: relative;
     z-index: 5;

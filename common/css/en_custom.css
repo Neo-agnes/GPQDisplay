@@ -9,9 +9,6 @@
 .nav ul li:nth-child(2)::after {content: ''; width: 16px; height: 1px; background: #fff; opacity: 0.7; position: absolute; left: 50%; bottom: 0; margin-left: -8px; margin-bottom: -15px;}
 .nav ul li:nth-child(3) {margin-top: 50px;}
 .nav ul li:nth-child(3)::after {display: none;}
-.nav ul li:nth-child(4) {
-/* 	margin-top: 20px; */
-}
 
 /* footer */
 .footer .links .txt_fild {padding-right: 5%;}
@@ -61,7 +58,6 @@
 		margin-left: 0;
 	}
 }
-
 
 @media all and (max-width:989px) {
 	

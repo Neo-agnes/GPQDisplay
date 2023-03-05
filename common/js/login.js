@@ -1,53 +1,61 @@
-// Get the background element
-const background = document.getElementById('background');
-
-// Create an array of colors to use for the background animation
-const colors = ['#FF4136', '#2ECC40', '#0074D9', '#FFDC00'];
-
-// Set the initial background color
-let backgroundColor = colors[0];
-
-// Set the initial index for the colors array
-let colorIndex = 0;
-
-// Set the interval for the background animation (in milliseconds)
-const interval = 1000;
-
-// Start the background animation
-setInterval(function() {
-  // Set the background color to the next color in the array
-  backgroundColor = colors[colorIndex];
-  
-  // Increment the color index
-  colorIndex++;
-  
-  // If we've reached the end of the colors array, reset the index to 0
-  if (colorIndex >= colors.length) {
-    colorIndex = 0;
+$(document).ready(function () {
+  if ($.cookie("autologin")=="true"){
+    $("#autologin").prop("checked",true);
+    $("form>.checkbox").addClass("checkbox_on");
+      login_value=1;
+  } else if($.cookie("autologin")=="false"){
+    $("#autologin").prop("checked",false)
   }
-  
-  // Update the background color
-  background.style.backgroundColor = backgroundColor;
-}, interval);
+  $("#non_member>.tap_head>a").eq(0).click(function () {
+    console.log("eq:0");
+    $(this).addClass('active');
+    $(".tap_head>a").eq(1).removeClass('active')
+    $("#tap_contents1").show();
+    $("#tap_contents2").hide();
+    $("#wrap").css({"height":"1120px"});
+  })
+  $("#non_member>.tap_head>a").eq(1).click(function () {
+    console.log("eq:1");
+    $(this).addClass('active');
+    $(".tap_head>a").eq(0).removeClass('active')
+    $("#tap_contents2").show();
+    $("#tap_contents1").hide();
+    $("#wrap").css({"height":"1040px"});
+  })
+})
 
-// Get the login form element
-const loginForm = document.querySelector('form');
+let login_value=null;
 
-// Add an event listener to the login form's submit button
-loginForm.addEventListener('submit', function(event) {
-  // Prevent the default form submission behavior
-  event.preventDefault();
-
-  // Get the values of the username and password fields
-  const username = document.getElementById('username').value;
-  const password = document.getElementById('password').value;
-
-  // Validate the username and password (this is just an example, you would need to implement your own validation)
-  if (username === 'admin' && password === 'password') {
-    // If the username and password are valid, redirect the user to the homepage
-    window.location.href = 'homepage.html';
-  } else {
-    // If the username and password are not valid, display an error message
-    alert('Invalid username or password');
+function funcAuto(){
+  if (login_value==null || login_value==0){
+    let choice=confirm("개인 PC가 아닐 경우 타인이 로그인 할 수 있습니다. \n PC를 여러 사람이 사용하는 공공장소에서는 체크하지 마세요. \n 정말 앞으로 자동 로그인 하시겠습니까?");
+    if (choice==true){
+      $("form>.checkbox").addClass("checkbox_on");
+      login_value=1;
+      $.cookie("autologin","true",{expries:7,path:"/"});
+      return;
+    } else if (choice==false){
+      login_value=0;
+      $("#autologin").prop("checked",false);
+      return;
+    }
+  } else if (login_value==1){
+    $("form>.checkbox").removeClass("checkbox_on");
+    login_value=0;
+    $.cookie("autologin","false",{expries:7,path:"/"});
+    return;
   }
-});
+}
+
+let agree_value=null;
+function funcAgree(){
+  if (agree_value==null || agree_value==0){
+    $("#tap_contents1>.checkbox").addClass("checkbox_on");
+    agree_value=1;
+    return;
+  } else if (agree_value==1){
+    $("#tap_contents1>.checkbox").removeClass("checkbox_on");
+    agree_value=0;
+    return;
+  }
+}

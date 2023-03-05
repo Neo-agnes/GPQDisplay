@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>GPQD | 회원가입</title>
+    <link rel="stylesheet" type="text/css" href="./common/css/signup.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="./common/js/signup.js"></script>
+  </head>
+  <body>
+    <div class="main-signup">
+      <!--웹페이지 상단-->
+      <header>
+          <!--LOGO-->
+          <div class="logo">
+              <a href="./index.html" target="_blank" ><img src="./images/common/login_logo.png" class="image"></a>
+          </div>
+      </header>
+      <!--회원가입 부분-->
+      <section class="signup-wrap">
+          <div>
+              <!--아이디,비번,비번재확인-->
+              <h3>아이디</h3>
+              <span class="signup-input">
+                  <input id="signup-id" type="text" placeholder="사용할 아이디를 입력해주세요"></input>
+                  <!-- <p class="login-input__validation" style="">아이디 입력은 필수정보입니다.</p> -->
+              </span>
+
+              <h3>비밀번호</h3>
+              <span class="signup-input">
+                  <input id="signup-pw" type="password" placeholder="숫자, 영문, 특수문자 조합 최소 8자"></input>
+                  <!-- <p class="login-input__validation" style="">비밀번호 입력은 필수정보입니다.</p> -->
+                  <span class="pw-lock"></span>
+              </span>
+
+              <h3>비밀번호 재확인</h3>
+              <span class="signup-input">
+                  <input id="signup-pww" type="password" placeholder="비밀번호 재입력"></input>
+                  <span class="pww-lock"></span>
+                  <!-- <p class="login-input__validation" style="">비밀번호 재확인은 필수정보입니다.</p> -->
+              </span>
+          </div>
+
+          <div style="margin-top: 35px;">
+              <!--이름,생년월일,성별,이메일-->
+              <h3>이름</h3>
+              <span class="signup-input">
+                  <input id="signup-name" type="text" placeholder="본인의 성함을 입력해주세요."></input>
+                  <!-- <p class="login-input__validation" style="">이름은 필수입니다.</p> -->
+              </span>
+
+              <h3>생년월일</h3>
+              <form style="display: flex;" action="" method="post">
+                  <span class="signup-input-birth">
+                      <input id="signup-birth-yy" type="text" placeholder="년(4자)"></input>
+                      <!-- <p class="login-input__validation" style="">잘못입력되셨습니다.</p> -->
+                  </span>
+                  <span class="signup-input-birth" style="margin-left: 10px;">
+                      <select id="signup-birth-mm" class="selectbox" name="month" onchange="">
+                          <option value="month">월</option>
+                          <!-- <p class="login-input__validation" style="">선택해주세요.</p> -->
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                          <option value="11">11</option>
+                          <option value="12">12</option>
+                      </select>
+                  </span>
+                  <span class="signup-input-birth" style="margin-left: 10px;">
+                      <input id="signup-birth-dd" type="text" placeholder="일"></input>
+                      <!-- <p class="login-input__validation" style="">잘못입력되셨습니다.</p> -->
+                  </span>
+              </form>
+
+              <h3>성별</h3>
+              <form class="signup-input" action="" method="post">
+                  <select id="signup-gender" class="selectbox" name="gender" onchange="">
+                      <option value="gender">성별</option>
+                      <!-- <p class="login-input__validation" style="">선택은필수입니다..</p> -->
+                      <option value="man">남자</option>
+                      <option value="woman">여자</option>
+                      <option value="no">선택 안함</option>
+                  </select>
+              </form>
+              <span class="choice">
+                  <h3>본인 확인 이메일</h3> &nbsp;&nbsp;
+                  <span>(선택)</span>
+              </span>
+              <span class="signup-input">
+                  <input id="signup-email" type="text" placeholder="선택입력"></input>
+              </span>
+
+          </div>
+
+          <div style="margin-top: 35px;">
+          </div>
+
+          <div>
+              <!--가입하기-->
+              <div class="signup-btn-wrap">
+                  <button id="signup-btn">가입하기</button>
+              </div>
+          </div>
+      </section>
+
+      <!--저작권 정보-->
+      <footer>
+          <div class="copyright-wrap" style="font-size: 12px;">
+              <span>이용약관 | 개인정보처리방침 | 책임의 한계와 고지</span> <br><br><br>
+              <div>© GPQDisplay Corp.</div>
+          </div>
+      </footer>
+
+  </div>
+  </body>
+</html>

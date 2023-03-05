@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  background-color: #f1f1f1;
+  background-image: url(/images/login/BG_OP.png);
+}
+
+#wrap {
+  width: 500px;
+  min-width: 400px;
+  height: 1120px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+.required:after {
+  content: "*";
+  color: red;
+  margin-left: 5px;
+}
+
+.error {
+  border-color: red !important;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+select{
+  width:85px;
+  height:25px;
+  outline: none;
+  background: #f5f6f7;
+  border: 1px solid #999;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+.main{
+  text-align: center;
+margin-top: 20px;
+}
+input{
+  cursor: pointer
+}
+
+/*네이버 로고설정*/
+.image{
+  height: 32px;
+  padding: 20px;
+}
+
+/*회원가입 부분*/
+.signup-wrap {
+  padding: 0 0 0 50px;
+}
+.main-signup{
+  background-color: #ffffff;
+  text-align: center;
+  width: 500px;
+  margin: auto;
+}
+h3{
+  margin:19px 0px 8px;
+  text-align: left;
+  font-size: 14px;
+  font-family: Dotum,'돋움',Helvetica,sans-serif;
+  position: relative;
+  left: 10px;
+}
+.signup-input{
+  display:flex;
+  margin: 0px 10px 8px 10px;
+  width: 370px;
+  height: 30px;
+  padding: 10px;
+  border: solid 1px #dadada;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.signup-input-b {
+  display:flex;
+  margin: 0px 10px 8px 10px;
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  border: solid 1px #dadada;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+}
+.signup-input-a {
+  margin: 0px 10px 8px 10px;
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  border: solid 1px #dadada;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+}
+.signup-input-c{
+  display:flex;
+  /* margin: 0px 10px 8px 10px; */
+  padding: 10px;
+  border: solid 1px #dadada;
+  background: #f5f6f7;
+  cursor: pointer;
+}
+.signup-input-c input{
+  background: #f5f6f7;
+}
+#signup-id, #signup-pw, #signup-pww{
+  height: 29px;
+  border: none;
+  outline:none;
+  width:100%;
+}
+.signup-at{
+  color: rgb(150, 150, 150);
+  font-size: 15px;
+  font-family: Dotum,'돋움',Helvetica,sans-serif;
+  margin-top: 8px;
+}
+.pw-lock{
+  /* content: ''; */
+  /* display: inline-block; */
+  top: 50%;
+  right: 13px;
+  width: 24px;
+  height: 24px;
+  margin-top: 5px;
+  background-image: url(https://static.nid.naver.com/images/ui/join/m_icon_pw_step.png);
+  background-size: 125px 75px;
+  cursor: pointer;
+}
+.pww-lock{
+  /* content: ''; */
+  /* display: inline-block; */
+  top: 50%;
+  right: 13px;
+  width: 24px;
+  height: 24px;
+  margin-top: 5px;
+  background-image: url(https://static.nid.naver.com/images/ui/join/m_icon_pw_step.png);
+  background-size: 125px 75px;
+  cursor: pointer;
+}
+
+.signup-input-birth{
+  display: block;
+  position: relative;
+  width: 125px;
+  height: 51px;
+  left: 10px;
+  border: solid 1px #dadada;
+  border-radius: 10px;
+  padding: 10px;
+  background: #fff;
+  box-sizing: border-box;
+}
+#signup-birth-yy, #signup-birth-mm, #signup-birth-dd{
+  width: 105px;
+  height: 30px;
+  border: none;
+  outline:none;
+}
+#signup-name, #signup-gender, #signup-email, #signup-country, #signup-phone, #signup-cnum{
+  width:100%;
+  height: 29px;
+  border: none;
+  outline:none;
+}
+#signup-gender{
+  background-color: white;
+}
+#signup-country{
+  background-color: white;
+}
+#signup-birth-mm{
+  background-color: white;
+}
+/*본인 확인 이메일*/
+.choice{
+  display: flex;
+}
+.choice span{
+  margin-top: 20px;
+  color: rgb(150, 150, 150);
+  font-size: 13px;
+  font-family: Dotum,'돋움',Helvetica,sans-serif;
+}
+/*회원가입버튼박스*/
+.signup-btn-wrap{
+  width: 350px;
+  height: 52px;
+  line-height: 55px;
+  margin: 10px 0px 50px 0px;
+  border: solid 1px rgba(0,0,0,.1);
+  background-color: #ff0000;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  left: 30px;
+}
+/*회원가입버튼*/
+#signup-btn{
+  width:100px;
+  background-color: #ff0000;
+  border: none;
+  color:#fff;
+  font-size: 18px;
+  outline:none;
+  cursor: pointer;
+}
+/*인증번호버튼박스*/
+.cnum-btn-wrap{
+  height: 52px;
+  line-height: 55px;
+  margin: 10px 0px 0px 10px;
+  border: solid 1px rgba(0,0,0,.1);
+  background-color: #03c75a;
+  color: #fff;
+  cursor: pointer;
+}
+/*인증번호버튼*/
+#cnum-btn{
+  width:115px;
+  background-color: #03c75a;
+  border: none;
+  color:#fff;
+  font-size: 15px;
+  outline:none;
+  cursor: pointer;
+}

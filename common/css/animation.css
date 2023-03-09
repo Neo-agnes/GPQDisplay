@@ -76,10 +76,6 @@
 
 
 /* 사업현황 애니메이션 */
-.status_year li.width-ani div{
-	/*left: 0;*/
-	
-}
 .status_year .txt_box div {transition: all 0.5s;}
 .status_year .txt_box1 div {transition-delay: 0.5s;}
 .status_year .txt_box2 div {transition-delay: 0.6s;}
@@ -92,11 +88,6 @@
 .status_year .status_arrow.img-aniload,
 .status_year .txt_box.img-aniload div
  {transform:translate(0);}
-
-
-.graph.active {
-	
-}
 
 .graph1.active .graph_inner {
 	-webkit-background-size: 100% 92%;
@@ -166,7 +157,6 @@
 .graph.active .circle_graph .per_txt1 {transition-delay: 1.1s;}
 .graph.active .circle_graph .per_txt2 {transition-delay: 1.2s;}
 .graph.active .circle_graph .per_txt3 {transition-delay: 1.3s;}
-.graph.active .circle_graph .per_txt3 span {} 
 .graph.active .circle_graph .per_txt3 p {transition-delay: 1.6s;}
 .graph.active .circle_graph .per_txt3 p::before {width: 56px; transition: 0.8s;}
 .graph.active .circle_graph .per_txt3 p::after {width: 43px; transition: 0.8s;}
